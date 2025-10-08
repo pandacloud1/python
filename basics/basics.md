@@ -11,6 +11,7 @@ Multi-line comment
 This is a multi-line comment
 We need to use triple single quotes for same
 You can keep on adding multiple lines
+# You can also Ctrl+/ in VS code
 '''
 ```
 
