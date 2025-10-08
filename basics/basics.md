@@ -15,6 +15,17 @@ You can also Ctrl+/ in VS code
 '''
 ```
 
+Using new-lines & tabs
+```py
+print("Sr no\tName\tAge\n1\tAlexa\t12\n2\tEthan\t57")
+```
+Output
+```sh
+Sr no   Name    Age
+1       Alexa   12
+2       Ethan   57
+```
+
 Typecast (convert data types)
 ```py
 # Example-1: Convert string to integer
