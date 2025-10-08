@@ -1,11 +1,11 @@
 ## Python Basics
 
-Printing message
+### Printing message
 ```py
 print ("Hello World")
 ```
 
-Multi-line comment
+### Multi-line comment
 ```py
 '''
 This is a multi-line comment
@@ -15,7 +15,7 @@ You can also Ctrl+/ in VS code
 '''
 ```
 
-Using new-lines & tabs
+### Using new-lines & tabs
 ```py
 print("Sr no\tName\tAge\n1\tAlexa\t12\n2\tEthan\t57")
 ```
@@ -26,7 +26,7 @@ Sr no   Name    Age
 2       Ethan   57
 ```
 
-Typecast (convert data types)
+### Typecast (convert data types)
 ```py
 # Example-1: Convert string to integer
 a = "5"
@@ -41,7 +41,7 @@ a = 5
 b = str(a)
 ```
 
-Why Typecasting is Required?
+### Why Typecasting is Required?
 ```py
 a = int(input("Enter first number: ")) # convert string --> integer
 b = int(input("Enter second number: ")) # convert string --> integer
@@ -50,7 +50,7 @@ print("The sum is: ")
 print(a+b)
 ```
 
-Check eligibility to vote
+### Check eligibility to vote
 ```py
 age = int(input("Enter your age: "))
 if age >= 18:
