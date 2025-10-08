@@ -20,6 +20,11 @@ You can also Ctrl+/ in VS code
 print("Hello Everyone","How are you?","Let's learn Python")
 print("Hello Everyone","How are you?","Let's learn Python",sep="/")
 ```
+Output
+```
+Hello Everyone How are you? Let's learn Python
+Hello Everyone/How are you?/Let's learn Python
+```
 
 ### Escape sequence characters
 ```
