@@ -24,13 +24,13 @@ You can also Ctrl+/ in VS code
 \': Single quote
 ```
 ```py
-print("Sr no\tName\tAge\n1\t\"Alexa\"\t12\n2\t\"Ethan\"\t57")
+print("Sr\tName\tAge\n1\t\"Alexa\"\t12\n2\t\"Ethan\"\t57")
 ```
 Output
 ```sh
-Sr no   Name     Age
-1       "Alexa"  12
-2       "Ethan"  57
+Sr   Name     Age
+1    "Alexa"  12
+2    "Ethan"  57
 ```
 
 ### Typecast (convert data types)
