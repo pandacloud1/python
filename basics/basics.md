@@ -83,8 +83,8 @@ b = 2
 print("Add", a + b)
 print("Sub", a-b)
 print("Mult", a*b)
-print("Div", a/b)
-print("FloorDiv/Quotient", a//b)
+print("Div/Quotient(decimal)", a/b)
+print("FloorDiv/Quotient(int)", a//b)
 print("Modulus/Remainder", a%b)
 print("Exponential/Square", a**b)
 ```
@@ -93,8 +93,8 @@ Output
 Add 27
 Sub 23
 Mult 50
-Div 12.5
-FloorDiv/Quotient 12
+Div/Quotient(decimal) 12.5
+FloorDiv/Quotient(int) 12
 Modulus/Remainder 1
 Exponential/Square 625
 ```
