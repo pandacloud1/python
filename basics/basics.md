@@ -5,6 +5,15 @@ Printing message
 print ("Hello World")
 ```
 
+Multi-line comment
+```py
+'''
+This is a multi-line comment
+We need to use triple single quotes for same
+You can keep on adding multiple lines
+'''
+```
+
 Typecast (convert data types)
 ```py
 # Example-1: Convert string to integer
