@@ -84,7 +84,7 @@ print("Add", a + b)
 print("Sub", a-b)
 print("Mult", a*b)
 print("Div", a/b)
-print("FloorDiv/Denominator", a//b)
+print("FloorDiv/Quotient", a//b)
 print("Modulus/Remainder", a%b)
 print("Exponential/Square", a**b)
 ```
@@ -94,7 +94,7 @@ Add 27
 Sub 23
 Mult 50
 Div 12.5
-FloorDiv/Denominator 12
+FloorDiv/Quotient 12
 Modulus/Remainder 1
 Exponential/Square 625
 ```
