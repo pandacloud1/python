@@ -17,13 +17,19 @@ You can also Ctrl+/ in VS code
 
 ### Using different separator (eg: /)
 ```py
+# Using different separator (eg: /)
 print("Hello Everyone","How are you?","Let's learn Python")
 print("Hello Everyone","How are you?","Let's learn Python",sep="/")
+
+# Using end
+print("Hello Everyone", end="! ")
+print("How are you", end="?")
 ```
 Output
 ```
 Hello Everyone How are you? Let's learn Python
 Hello Everyone/How are you?/Let's learn Python
+Hello Everyone! How are you?
 ```
 
 ### Escape sequence characters
