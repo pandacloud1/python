@@ -23,13 +23,14 @@ print("Hello Everyone","How are you?","Let's learn Python",sep="/")
 
 # Using end
 print("Hello Everyone", end="! ")
-print("How are you", end="?")
+print("How are you", end="? ")
+print("I am fine")
 ```
 Output
 ```
 Hello Everyone How are you? Let's learn Python
 Hello Everyone/How are you?/Let's learn Python
-Hello Everyone! How are you?
+Hello Everyone! How are you? I am fine
 ```
 
 ### Escape sequence characters
