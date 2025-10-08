@@ -15,6 +15,12 @@ You can also Ctrl+/ in VS code
 '''
 ```
 
+### Using different separator (eg: /)
+```py
+print("Hello Everyone","How are you?","Let's learn Python")
+print("Hello Everyone","How are you?","Let's learn Python",sep="/")
+```
+
 ### Escape sequence characters
 ```
 \n: new line
