@@ -26,3 +26,12 @@ elif (18<=bmi<25):
 else:
     print("You are underweight")
 ```
+
+### Print square & cube of number
+```py
+num = int(input("Enter a number: "))
+square = num**2
+cube = num**3
+print(square)
+print(cube)
+```
