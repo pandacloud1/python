@@ -1,4 +1,4 @@
-## Break & Continue
+## Break, Continue & Pass
 
 ### break
 ```py
@@ -20,3 +20,11 @@ for i in range(1, 11):
 ```
 Output (Only '6' has been skipped) <br>
 <img width="177" height="140" alt="image" src="https://github.com/user-attachments/assets/8e57e37d-a96f-4a37-b7d3-d69539936677" />
+
+### pass
+```py
+### Used when we want to use condition later
+i = 3
+if i==3:
+    pass  # do nothing
+```
