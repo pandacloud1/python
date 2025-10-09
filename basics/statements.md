@@ -1,4 +1,4 @@
-## Python Programs
+## Conditional Statements
 
 ### If-else (Check eligibility to vote)
 ```py
