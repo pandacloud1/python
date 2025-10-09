@@ -47,7 +47,7 @@ else:
     print("You are underweight")
 ```
 
-### Case statement (Lucky number)
+### Match case statement (Lucky number)
 ```py
 a = int(input("Enter any number from 1 to 5: "))
 
@@ -64,7 +64,7 @@ match a:
         print("Sorry! Better luck next time")
 ```
 
-### Case statement (Enter a day number (1–7) and print the corresponding day)
+### Match case statement (Enter a day number (1–7) and print the corresponding day)
 ```py
 day = int(input("Enter a number from 1-7: "))
 
@@ -85,4 +85,21 @@ match day:
         print("Saturday")
     case _:
         print("Invalid input")
+```
+
+### Enter two numbers & perform operations
+```py
+a = int(input("Enter number 1: "))
+b = int(input("Enter number 2: "))
+operator = input("Choose operator (+,-,*,/): ")
+
+match operator:
+    case "+":
+        print(a+b)
+    case "-":
+        print(a-b)
+    case "*":
+        print(a*b)
+    case "/":
+        print(a/b)
 ```
