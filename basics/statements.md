@@ -1,6 +1,6 @@
-## Sample Programs
+## Python Programs
 
-### Check eligibility to vote
+### If-else (Check eligibility to vote)
 ```py
 age = int(input("Enter your age: "))
 if age >= 18:
@@ -9,7 +9,7 @@ else:
     print("You are not eligible to vote")
 ```
 
-### Check BMI
+### If-elif-else statement (Check BMI)
 ```py
 weight = float(input("Enter weight in kg: "))
 height = float(input("Enter height in metres: "))
@@ -27,11 +27,19 @@ else:
     print("You are underweight")
 ```
 
-### Print square & cube of number
+### Case statement
 ```py
-num = int(input("Enter a number: "))
-square = num**2
-cube = num**3
-print(square)
-print(cube)
+a = int(input("Enter any number from 1 to 5: "))
+
+match a:
+    case 1: 
+        print("You won a toy gun!")
+    case 2:
+        print("You won Nike shoes!")
+    case 3:
+        print("You won free movie ticket!")
+    case 4:
+        print("You won a vacation package!")
+    case _:
+        print("Sorry! Better luck next time")
 ```
