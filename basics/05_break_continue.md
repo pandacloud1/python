@@ -18,5 +18,5 @@ for i in range(1, 11):
         continue    # '6' will be skipped
     print(i)
 ```
-Output <br>
+Output ('6' has been skipped) <br>
 <img width="177" height="140" alt="image" src="https://github.com/user-attachments/assets/8e57e37d-a96f-4a37-b7d3-d69539936677" />
