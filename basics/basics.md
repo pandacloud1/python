@@ -99,13 +99,3 @@ Modulus/Remainder 1
 Exponential/Square 625
 ```
 <img width="216" height="121" alt="image" src="https://github.com/user-attachments/assets/5f6996a9-1120-4f4b-9b3a-a915b11c42a9" />
-
-
-### Check eligibility to vote
-```py
-age = int(input("Enter your age: "))
-if age >= 18:
-    print("You are elgible to vote")
-else:
-    print("You are not eligible to vote")
-```
