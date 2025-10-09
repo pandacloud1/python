@@ -9,6 +9,26 @@ else:
     print("You are not eligible to vote")
 ```
 
+### Check if number is even or odd
+```py
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print("Number is Even")
+else:
+    print("Number is Odd")
+```
+
+### Check if number is positive, negative, or zero
+```py
+num = int(input("Enter a number: "))
+if num > 0:
+    print("Number is positive")
+elif num == 0:
+    print("Number is zero")
+else:
+    print("Number is negative")
+```
+
 ### If-elif-else statement (Check BMI)
 ```py
 weight = float(input("Enter weight in kg: "))
