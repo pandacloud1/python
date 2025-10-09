@@ -15,3 +15,11 @@ n = int(input("Enter a number for multiplication table: "))
 for i in range (1, 11):
     print (n, "x", i, "=", i*n)
 ```
+
+### While loop (Print 1 to 5)
+```py
+i = 1
+while i<6:
+    print(i)  # 1 2 3 4 5 exit (Output)
+    i+=1      # 2 3 4 5 6
+```
