@@ -65,6 +65,7 @@ match a:
 ```
 
 ### Case statement (Enter a day number (1–7) and print the corresponding day)
+```py
 a = int(input("Enter a number from 1-7: "))
 
 match a:
@@ -82,3 +83,6 @@ match a:
         print("Friday")
     case 7:
         print("Saturday")
+    case _:
+        print("Invalid input")
+```
