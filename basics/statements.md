@@ -27,7 +27,7 @@ else:
     print("You are underweight")
 ```
 
-### Case statement
+### Case statement (Lucky number)
 ```py
 a = int(input("Enter any number from 1 to 5: "))
 
