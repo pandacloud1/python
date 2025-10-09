@@ -7,7 +7,7 @@ for i in range(1, 11):
         break
     print(i)
 ```
-Output <br>
+Output (Number 6 and later have been skipped) <br>
 <img width="129" height="79" alt="image" src="https://github.com/user-attachments/assets/f1044102-c0d6-45a1-9d08-39e36679100d" />
 
 
