@@ -66,9 +66,9 @@ match a:
 
 ### Case statement (Enter a day number (1–7) and print the corresponding day)
 ```py
-a = int(input("Enter a number from 1-7: "))
+day = int(input("Enter a number from 1-7: "))
 
-match a:
+match day:
     case 1:
         print("Sunday")
     case 2:
