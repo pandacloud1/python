@@ -16,10 +16,14 @@ for i in range (1, 11):
     print (n, "x", i, "=", i*n)
 ```
 
-### While loop (Print 1 to 5)
+### While loop (Infinite loop) (ICAI)
+while True:
+    print("This is infinite loop!!")
+
+### While loop (Print 1 to 5) (ICAI)
 ```py
-i = 1
-while i<6:
-    print(i)  # 1 2 3 4 5 exit (Output)
-    i+=1      # 2 3 4 5 6
+i = 1         # initial value
+while i<6:    # condition
+    print(i)  # 1 2 3 4 5 exit (Output)  # argument
+    i+=1      # 2 3 4 5 6                # increment
 ```
