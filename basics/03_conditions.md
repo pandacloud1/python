@@ -9,7 +9,7 @@ else:
     print("You are not eligible to vote")
 ```
 
-### Check if number is even or odd
+### If-else (Check if number is even or odd)
 ```py
 num = int(input("Enter a number: "))
 if num % 2 == 0:
@@ -18,7 +18,7 @@ else:
     print("Number is Odd")
 ```
 
-### Check if number is positive, negative, or zero
+### If-else (Check if number is positive, negative, or zero)
 ```py
 num = int(input("Enter a number: "))
 if num > 0:
@@ -63,3 +63,22 @@ match a:
     case _:
         print("Sorry! Better luck next time")
 ```
+
+### Case statement (Enter a day number (1–7) and print the corresponding day)
+a = int(input("Enter a number from 1-7: "))
+
+match a:
+    case 1:
+        print("Sunday")
+    case 2:
+        print("Monday")
+    case 3:
+        print("Tuesday")
+    case 4:
+        print("Wednesday")
+    case 5:
+        print("Thursday")
+    case 6:
+        print("Friday")
+    case 7:
+        print("Saturday")
