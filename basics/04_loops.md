@@ -2,7 +2,7 @@
 
 ### For loop (Print table of 5)
 ```py
-for i in range (1, 11):
+for i in range (1, 11):    # [range is from 1 to (11-1) 10]
     print ("5 x", i, "=", (i)*5)
 ```
 Output<br>
