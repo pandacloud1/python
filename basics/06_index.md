@@ -1,6 +1,6 @@
-# INDEX USED IN STRING
+## INDEX USED IN STRING
 
-## Print letters of a string in fwd/reverse order using index
+### Print letters of a string in fwd/reverse order using index
 ```py
 name = "PANDA"
 print(name[0])
