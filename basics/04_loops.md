@@ -28,8 +28,10 @@ for i in range (1, 11):
 
 ## WHILE LOOP
 ### Infinite loop (ICAI)
+```py
 while True:
     print("This is infinite loop!!")
+```
 
 ### Print 1 to 5 (ICAI)
 ```py
