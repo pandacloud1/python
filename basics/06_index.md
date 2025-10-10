@@ -23,7 +23,7 @@ print(name[-5])
 ```py
 name = "PANDACLOUD"  # word length = 10
 print(name[0:5])     # goes from 0 to (5-1)
-print(name[5:11])
+print(name[5:11])    # goes from 5th character to (11-1) character
 print(name[0:10:2])  # keeps [(2-1=1] consecutive characters
 print(name[0:10:3])  # keeps [(3-1)=2] consecutive characters
 print(name[0:])      # considers last character
