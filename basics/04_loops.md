@@ -13,7 +13,7 @@ Output<br>
 for i in range(1,6):
     print(i*"*")
 ```
-Output
+Output<br>
 <img width="133" height="80" alt="image" src="https://github.com/user-attachments/assets/ba388a76-6ee2-4a75-a806-bb9dcd87d986" />
 
 
