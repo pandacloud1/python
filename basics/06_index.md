@@ -15,3 +15,4 @@ print(name[-3])
 print(name[-4])
 print(name[-5])
 ```
+<img width="146" height="172" alt="image" src="https://github.com/user-attachments/assets/eea9e8cb-ffec-4068-8a7a-c9872c530751" />
