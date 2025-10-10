@@ -1,6 +1,7 @@
 ## INDEX & STRING SLICING USED IN STRING
 
-### Print letters of a string in fwd/reverse order using index
+### INDEX
+#### Print letters of a string in fwd/reverse order
 ```py
 name = "PANDA"
 print(name[0])
@@ -17,9 +18,9 @@ print(name[-5])
 ```
 <img width="146" height="172" alt="image" src="https://github.com/user-attachments/assets/eea9e8cb-ffec-4068-8a7a-c9872c530751" />
 
-### String slicing
+### SLICING
+#### Used to pick specific characters from a string
 ```py
-### Used to pick specific characters from a string
 name = "PANDACLOUD"  # word length = 10
 print(name[0:5])     # goes from 0 to (5-4)
 print(name[0:10:2])  # keeps [(2-1=1] consecutive characters
