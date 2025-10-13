@@ -1,6 +1,8 @@
 ## FUNCTIONS
 - Functions help you to write your own code
 - You need to define the function & call it to execute
+- They are used for reusability & modularity
+- 'Return' can help you store values in a variable
 
 ### Average of 3 numbers
 ```py
