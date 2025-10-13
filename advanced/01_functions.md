@@ -71,11 +71,11 @@ print(a1,a2,a3)
 - They help you to save multiple lines of code
 ```py
 # Sum function
-sum = lambda x,y: x+y
+sum = lambda a,b: a+b
 print(sum(2,3))
 # Used instead of:
-# def sum(x,y):
-#     z = x+y
+# def sum(a,b):
+#     z = a+b
 #     print(z)
 # sum(2,3)
 ```
