@@ -88,3 +88,11 @@ print(github.isalnum())
 print(youtube.isspace())
 ```
 <img width="116" height="67" alt="image" src="https://github.com/user-attachments/assets/46f09253-a803-4963-8941-4d20105b8f4e" />
+
+#### String format
+```py
+name = "Panda"
+age = 5
+print(f"My name is {name} & my age is {age}")
+```
+<img width="215" height="21" alt="image" src="https://github.com/user-attachments/assets/12fd2703-1342-441b-b02b-84d54259ea12" />
