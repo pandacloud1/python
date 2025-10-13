@@ -4,6 +4,16 @@
 - They are used for reusability & modularity
 - 'Return' can help you store values in a variable
 
+### Sum function
+```py
+def sum(a,b,c):
+    x = a+b+c
+    print (x)
+sum(1,2,3)
+```
+<img width="32" height="20" alt="image" src="https://github.com/user-attachments/assets/bce8b174-518c-428e-8c6b-8bb699f381bb" />
+
+
 ### Average of 3 numbers
 ```py
 def average(a,b,c):     # here a,b,c are parameters
