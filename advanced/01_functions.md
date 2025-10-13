@@ -66,11 +66,12 @@ print(a1,a2,a3)
 ```
 <img width="84" height="19" alt="image" src="https://github.com/user-attachments/assets/c21a41b2-441c-4a3a-b0a9-0f9f183f8eca" />
 
-### Lambda function
-- They are one liner function
-- They help you to save multiple lines of code
+## LAMBDA FUNCTION
+- It is a one liner function
+- It will help you to save multiple lines of code
+  
+### Sum function
 ```py
-# Sum function
 sum = lambda a,b: a+b
 print(sum(2,3))
 
@@ -82,8 +83,35 @@ print(sum(2,3))
 ```
 <img width="32" height="16" alt="image" src="https://github.com/user-attachments/assets/f06ab0e7-a974-4e9f-93c4-add59f5a74a0" />
 
+### Multiply function
 ```py
-# Multiply function
 multiply = lambda a,b: a*b
 print(multiply(4,5))
 ```
+
+## RECURSION
+- Recursion is where a function calls itself again & again
+- Sometimes, we may need to define the base case (values) in recursion
+
+### Fibonacci series
+```py
+"""
+0 1 1 2 3 5 8 13 21 ...   # Fibonacci series
+0 1 2 3 4 5 6 7 8 9 ...   # Index 
+fib(0) = 0
+fib(1) = 1
+fib(2) = fib(0) + fib(1)
+fib(3) = fib(1) + fib(2)
+...
+fib(n) = fib(n-2) + fib(n-1)
+"""
+x = int(input("Enter the fibonacci length.: "))
+def fib(n):
+    if (n==0 or n==1):
+        return(n)
+
+    return fib(n-2) + fib(n-1)
+for n in range (0,x):
+    print(fib(n))
+```
+<img width="241" height="170" alt="image" src="https://github.com/user-attachments/assets/b278cb07-b6bf-43c4-bc97-9cc8176d1385" />
