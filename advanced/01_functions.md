@@ -41,7 +41,7 @@ multiply(10,11,12)            # overwriting arguments
 <img width="43" height="20" alt="image" src="https://github.com/user-attachments/assets/401b4ac1-762a-44a2-bd68-8bb93279b4dc" />
 
 
-### Average of 3 numbers
+### Average function
 ```py
 def average(a,b,c):     # here a,b,c are parameters
     avg = (a+b+c)/3
@@ -53,7 +53,7 @@ average(7,8,9)
 ```
 <img width="71" height="49" alt="image" src="https://github.com/user-attachments/assets/44fe6b6f-2c82-41b7-86a7-d5aeef04d25d" />
 
-### Using return to store value in variable
+Using return to store value in variable
 ```py
 def average(a,b,c):
     avg = (a+b+c)/3
@@ -65,3 +65,18 @@ a3 = average(7,8,9)
 print(a1,a2,a3)
 ```
 <img width="84" height="19" alt="image" src="https://github.com/user-attachments/assets/c21a41b2-441c-4a3a-b0a9-0f9f183f8eca" />
+
+### Lambda function
+- They are one liner function
+```py
+# Sum function
+sum = lambda x,y: x+y
+print(sum(2,3))
+# Used instead of:
+# def sum(x,y):
+#     z = x+y
+#     print(z)
+# sum(2,3)
+```
+<img width="32" height="16" alt="image" src="https://github.com/user-attachments/assets/f06ab0e7-a974-4e9f-93c4-add59f5a74a0" />
+
