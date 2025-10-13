@@ -6,11 +6,11 @@
 
 ### Average of 3 numbers
 ```py
-def average(a,b,c):
+def average(a,b,c):     # here a,b,c are parameters
     avg = (a+b+c)/3
     print(avg)
 
-average(1,2,3)
+average(1,2,3)          # here 1,2,3 are arguments
 average(4,5,6)
 average(7,8,9)
 ```
