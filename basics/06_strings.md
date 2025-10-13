@@ -47,3 +47,18 @@ print(name.capitalize())  # Only first letter
 print(name.title())       # First letter of each word
 ```
 <img width="150" height="80" alt="image" src="https://github.com/user-attachments/assets/715ab8f0-dbeb-44ab-9908-fcce8e10c0b7" />
+
+#### Whitespaces
+```py
+name = " Panda Cloud "
+print(name.strip())    # removes whitespaces from left & right
+print(name.lstrip())   # removes whitespace from left
+print(name.rstrip())   # removes whitespace from right
+```
+<img width="131" height="50" alt="image" src="https://github.com/user-attachments/assets/26d394c0-8212-4216-8709-63d3c69ec676" />
+
+#### Find & Replace
+name = "Panda Cloud"
+print(name.find("Panda"))                # index position of the word
+print(name.replace("Cloud", "Academy"))  # Replace 'Cloud' --> 'Academy'
+<img width="119" height="37" alt="image" src="https://github.com/user-attachments/assets/9b20d633-77d0-468b-8586-f1f52ce2fe0a" />
