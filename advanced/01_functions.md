@@ -13,6 +13,15 @@ sum(1,2,3)
 ```
 <img width="32" height="20" alt="image" src="https://github.com/user-attachments/assets/bce8b174-518c-428e-8c6b-8bb699f381bb" />
 
+### Multiply function
+```py
+def multiply(a,b,c):
+    x = a*b*c
+    print (x)
+multiply(4,5,6)
+```
+<img width="37" height="21" alt="image" src="https://github.com/user-attachments/assets/0cc46e95-5b39-40e3-b997-31547abb9a02" />
+
 
 ### Average of 3 numbers
 ```py
