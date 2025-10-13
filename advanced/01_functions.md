@@ -116,3 +116,23 @@ for n in range(0,x):
     print(f(n))
 ```
 <img width="241" height="170" alt="image" src="https://github.com/user-attachments/assets/b278cb07-b6bf-43c4-bc97-9cc8176d1385" />
+
+Alternate program (without functions
+```py
+### Fibonacci
+x = int(input("Enter the fibonacci length: "))
+a = 0
+b = 1
+if (x==0 or x==1):
+    print(a)
+    print(b)
+else:
+    print(a)
+    print(b)
+    for i in range(2,x):
+        c = a+b
+        print(c)
+        # Shift values
+        a=b
+        b=c
+```
