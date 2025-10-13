@@ -31,7 +31,7 @@ multiply()
 ```
 <img width="37" height="21" alt="image" src="https://github.com/user-attachments/assets/0cc46e95-5b39-40e3-b997-31547abb9a02" />
 
-Multiply function (default arguments)
+Overwriting default arguments
 ```py
 def multiply(a=4,b=5,c=6):    # default arguments
     x = a*b*c
