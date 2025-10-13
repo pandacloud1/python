@@ -95,23 +95,24 @@ print(multiply(4,5))
 
 ### Fibonacci series
 ```py
+### Fibonacci series
 """
-0 1 1 2 3 5 8 13 21 ...   # Fibonacci series
-0 1 2 3 4 5 6 7 8 9 ...   # Index 
-fib(0) = 0
-fib(1) = 1
-fib(2) = fib(0) + fib(1)
-fib(3) = fib(1) + fib(2)
-...
-fib(n) = fib(n-2) + fib(n-1)
-"""
-x = int(input("Enter the fibonacci length.: "))
-def fib(n):
-    if (n==0 or n==1):
-        return(n)
+0 1 1 2 3 5 8 13 21 ...   # Fibonacci
+0 1 2 3 4 5 6 7 8 9 ...   # Index
 
-    return fib(n-2) + fib(n-1)
-for n in range (0,x):
-    print(fib(n))
+f(0) = 0
+f(1) = 1
+f(2) = f(0)   + f(1)
+f(n) = f(n-2) + f(n-1)
+"""
+x = int(input("Enter the fibonacci length: "))
+def f(n):
+    if (n==0 or n==1):
+        return n
+    else:
+        return f(n-1) + f(n-2)
+
+for n in range(0,x):
+    print(f(n))
 ```
 <img width="241" height="170" alt="image" src="https://github.com/user-attachments/assets/b278cb07-b6bf-43c4-bc97-9cc8176d1385" />
