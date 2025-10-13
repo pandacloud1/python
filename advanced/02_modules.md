@@ -4,6 +4,13 @@
 - Build-in modules can be found here [https://docs.python.org/3/py-modindex.html]
 - You can write you own modules & import them
 
+### Math module (to get square root)
+```py
+import math
+print(math.sqrt(16))
+```
+<img width="39" height="19" alt="image" src="https://github.com/user-attachments/assets/6d4225f4-e2ec-45a0-8eea-3d85bb4d053e" />
+
 ### Simple 'Hello World' module
 module.py
 ```py
