@@ -15,8 +15,9 @@ print(name[-2])
 print(name[-3])
 print(name[-4])
 print(name[-5])
+print(name[::-1])  # reverse string
 ```
-<img width="146" height="172" alt="image" src="https://github.com/user-attachments/assets/eea9e8cb-ffec-4068-8a7a-c9872c530751" />
+<img width="165" height="189" alt="image" src="https://github.com/user-attachments/assets/8b9a3b32-08ce-4bfa-94eb-f444d9b3a75f" />
 
 ### STRING SLICING
 #### Used to pick specific characters from a string
@@ -73,3 +74,16 @@ print(name1.split(","))                 # string --> list
 print(",".join(name2))                  # list --> string
 ```
 <img width="222" height="35" alt="image" src="https://github.com/user-attachments/assets/f7cc4929-7436-4198-b491-05d86ff1a843" />
+
+#### String properties
+```py
+name = "panda"
+year = "2023"
+github = "pandacloud1"
+youtube = " \t "
+print(name.isalpha())
+print(year.isdigit())
+print(github.isalnum())
+print(youtube.isspace())
+```
+<img width="116" height="67" alt="image" src="https://github.com/user-attachments/assets/46f09253-a803-4963-8941-4d20105b8f4e" />
