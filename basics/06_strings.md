@@ -64,3 +64,12 @@ print(name.find("Panda"))                # index position of the word
 print(name.replace("Cloud", "Academy"))  # Replace 'Cloud' --> 'Academy'
 ```
 <img width="119" height="37" alt="image" src="https://github.com/user-attachments/assets/9b20d633-77d0-468b-8586-f1f52ce2fe0a" />
+
+#### String --> List (& vice versa)
+```py
+name1 = "Panda,Cloud,Academy"           # string
+name2 = ["Panda", "Cloud", "Academy"]   # list
+print(name1.split(","))                 # string --> list
+print(",".join(name2))                  # list --> string
+```
+<img width="222" height="35" alt="image" src="https://github.com/user-attachments/assets/f7cc4929-7436-4198-b491-05d86ff1a843" />
