@@ -117,7 +117,7 @@ for n in range(0,x):
 ```
 <img width="241" height="170" alt="image" src="https://github.com/user-attachments/assets/b278cb07-b6bf-43c4-bc97-9cc8176d1385" />
 
-Alternate program (without functions
+Alternate program (without functions)
 ```py
 ### Fibonacci
 x = int(input("Enter the fibonacci length: "))
