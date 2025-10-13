@@ -1,4 +1,4 @@
-## INDEX & STRING SLICING USED IN STRING
+## STRINGS
 
 ### INDEX
 #### Print letters of a string in fwd/reverse order
@@ -29,6 +29,21 @@ print(name[0:10:3])  # keeps [(3-1)=2] consecutive characters
 print(name[0:])      # considers last character
 print(name[:])       # considers first & last character
 print(name[:-1])     # skips the last character
+# Note: Strings are immutable, you cannot replace string or index values
+# name = "Panda"
+# name[0] = "D"
+# TypeError: 'str' object does not support item assignment
 ```
 <img width="116" height="111" alt="image" src="https://github.com/user-attachments/assets/668913bb-1642-488f-9704-ec5a7f049730" />
 
+### STRING METHODS
+#### Cases
+```py
+name = "panda cloud"
+print(len(name))
+print(name.upper())
+print(name.lower())
+print(name.capitalize())  # Only first letter
+print(name.title())       # First letter of each word
+```
+<img width="150" height="80" alt="image" src="https://github.com/user-attachments/assets/715ab8f0-dbeb-44ab-9908-fcce8e10c0b7" />
