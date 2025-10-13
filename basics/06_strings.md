@@ -96,3 +96,27 @@ age = 5
 print(f"My name is {name} & my age is {age}")
 ```
 <img width="215" height="21" alt="image" src="https://github.com/user-attachments/assets/12fd2703-1342-441b-b02b-84d54259ea12" />
+
+#### count vowels 
+```py
+vowels = ["a","e","i","o","u"]
+sentence = "Coding in Python is fun" 
+
+sum=0
+for i in sentence.lower():
+    if (i in vowels):
+        sum += 1
+print(f"There are {sum} vowels in this sentence")
+```
+<img width="238" height="20" alt="image" src="https://github.com/user-attachments/assets/8763e4fe-6f04-4916-a7e3-a627b393db7f" />
+
+#### Check if palindrome or not
+```py
+text = input("Enter any word: ")
+if text == text[::-1]:
+    print("It is palindrome")
+else:
+    print("It is not palindrome")
+```
+<img width="165" height="37" alt="image" src="https://github.com/user-attachments/assets/202f6170-e746-4111-809a-d6471b32f735" />
+
