@@ -58,13 +58,14 @@ print(name.rstrip())   # removes whitespace from right
 ```
 <img width="131" height="50" alt="image" src="https://github.com/user-attachments/assets/26d394c0-8212-4216-8709-63d3c69ec676" />
 
-#### Find & Replace
+#### Find, Replace & Count
 ```py
 name = "Panda Cloud"
-print(name.find("Panda"))                # counts how many times the letter is present
+print(name.find("d"))                    # tells the index position of letter
 print(name.replace("Cloud", "Academy"))  # Replace 'Cloud' --> 'Academy'
+print(name.count("a"))                   # counts no of a's
 ```
-<img width="119" height="37" alt="image" src="https://github.com/user-attachments/assets/9b20d633-77d0-468b-8586-f1f52ce2fe0a" />
+<img width="140" height="52" alt="image" src="https://github.com/user-attachments/assets/ad14a671-1118-4c59-bfda-f4e9e97450f5" />
 
 #### String --> List (& vice versa)
 ```py
