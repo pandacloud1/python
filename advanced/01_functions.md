@@ -68,6 +68,7 @@ print(a1,a2,a3)
 
 ### Lambda function
 - They are one liner function
+- They help you to save multiple lines of code
 ```py
 # Sum function
 sum = lambda x,y: x+y
