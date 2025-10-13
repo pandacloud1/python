@@ -31,6 +31,16 @@ multiply()
 ```
 <img width="37" height="21" alt="image" src="https://github.com/user-attachments/assets/0cc46e95-5b39-40e3-b997-31547abb9a02" />
 
+Multiply function (default arguments)
+```py
+def multiply(a=4,b=5,c=6):    # default arguments
+    x = a*b*c
+    print (x)
+multiply(10,11,12)            # overwriting arguments
+```
+<img width="43" height="20" alt="image" src="https://github.com/user-attachments/assets/401b4ac1-762a-44a2-bd68-8bb93279b4dc" />
+
+
 ### Average of 3 numbers
 ```py
 def average(a,b,c):     # here a,b,c are parameters
