@@ -61,7 +61,7 @@ print(name.rstrip())   # removes whitespace from right
 #### Find & Replace
 ```py
 name = "Panda Cloud"
-print(name.find("Panda"))                # index position of the word
+print(name.find("Panda"))                # counts how many times the letter is present
 print(name.replace("Cloud", "Academy"))  # Replace 'Cloud' --> 'Academy'
 ```
 <img width="119" height="37" alt="image" src="https://github.com/user-attachments/assets/9b20d633-77d0-468b-8586-f1f52ce2fe0a" />
