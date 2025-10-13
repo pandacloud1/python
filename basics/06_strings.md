@@ -58,7 +58,9 @@ print(name.rstrip())   # removes whitespace from right
 <img width="131" height="50" alt="image" src="https://github.com/user-attachments/assets/26d394c0-8212-4216-8709-63d3c69ec676" />
 
 #### Find & Replace
+```py
 name = "Panda Cloud"
 print(name.find("Panda"))                # index position of the word
 print(name.replace("Cloud", "Academy"))  # Replace 'Cloud' --> 'Academy'
+```
 <img width="119" height="37" alt="image" src="https://github.com/user-attachments/assets/9b20d633-77d0-468b-8586-f1f52ce2fe0a" />
