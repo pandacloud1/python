@@ -83,7 +83,7 @@ print(sum(2,3))
 <img width="32" height="16" alt="image" src="https://github.com/user-attachments/assets/f06ab0e7-a974-4e9f-93c4-add59f5a74a0" />
 
 ```py
-### Multiply function
+# Multiply function
 multiply = lambda a,b: a*b
 print(multiply(4,5))
 ```
