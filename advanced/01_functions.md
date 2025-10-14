@@ -17,6 +17,7 @@ def test():
     return x
 test()
 print(x)
+# Output: 10, this won't work for local variable 'x'
 ```
 
 ### Sum function
