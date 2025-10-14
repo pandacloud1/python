@@ -42,3 +42,12 @@ import module
 module.sum(1,2,3)
 ```
 <img width="29" height="21" alt="image" src="https://github.com/user-attachments/assets/ad715f53-300c-4367-9810-c118af76f6c7" />
+
+### Requests module (used for external modules)
+```py
+# First install requests using 'pip install requests'
+import requests
+r = requests.get("https://www.example.com")
+print(r.text)
+```
+<img width="575" height="100" alt="image" src="https://github.com/user-attachments/assets/e34d5877-c260-4988-a29d-858ec6694077" />
