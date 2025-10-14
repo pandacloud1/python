@@ -3,6 +3,7 @@
 - They are of two types: Build-in modules & external modules
 - Build-in modules can be found here [https://docs.python.org/3/py-modindex.html]
 - You can write you own modules & import them
+- External modules can be installed via 'pip' (eg. pip install requests)
 
 ### Math module (to get square root)
 ```py
