@@ -5,6 +5,7 @@
 - You can write you own modules & import them
 - External modules can be installed via 'pip' (eg. pip install requests, requests module is used to fetch online urls)
 - The dependency py files will be saved locally in your system
+- Commonly used modules: requests, pandas, numpy
 
 ### Math module (to get square root)
 ```py
