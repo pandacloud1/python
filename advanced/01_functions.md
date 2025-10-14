@@ -7,6 +7,17 @@
 - That is the reason you need to call function & not the variable inside it
 - Hence, variables inside function are called 'local variables'
 - Variables outside the function are called 'global variables', they can be accessed from everywhere
+- You can make local variable inside a function a global variable, by using 'global <var>'
+
+```py
+# Changing local variable to global variable
+def test():
+    global x    
+    x = 10
+    return x
+test()
+print(x)
+```
 
 ### Sum function
 ```py
