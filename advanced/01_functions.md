@@ -2,7 +2,9 @@
 - Functions help you to write your own code
 - You need to define the function & call it to execute
 - They are used for reusability & modularity
-- 'Return' can help you store values in a variable
+- 'Return' can help you store values in a variable temporarily
+- Once values of variables & return are passed, function no longer stores the values
+- That is the reason you need to call function & not the variable inside it
 
 ### Sum function
 ```py
