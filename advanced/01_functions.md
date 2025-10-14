@@ -5,6 +5,7 @@
 - 'Return' can help you store values in a variable temporarily
 - Once values of variables & return are passed, function no longer stores the values
 - That is the reason you need to call function & not the variable inside it
+- Hence, variables inside function are called 'local variables'
 
 ### Sum function
 ```py
