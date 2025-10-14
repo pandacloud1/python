@@ -3,7 +3,8 @@
 - They are of two types: Build-in modules & external modules
 - Build-in modules can be found here [https://docs.python.org/3/py-modindex.html]
 - You can write you own modules & import them
-- External modules can be installed via 'pip' (eg. pip install requests)
+- External modules can be installed via 'pip' (eg. pip install requests, requests module is used to fetch online urls)
+- The dependency py files will be saved locally in your system
 
 ### Math module (to get square root)
 ```py
