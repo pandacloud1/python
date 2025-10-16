@@ -173,6 +173,36 @@ print(fact(n))
 ```
 <img width="124" height="37" alt="image" src="https://github.com/user-attachments/assets/158f1747-fc51-4b57-a8bf-7e64909dc178" />
 
+### Recursive function - Sum of digits
+```py
+n = int(input("Enter a multi-digit number: "))
+def sum_of_digits(n):
+    if n==0:
+        return 0
+    return (n%10) + sum_of_digits(n//10)
+print(sum_of_digits(n))
+
+### Explanation
+"""
+sum_of_digits(123) returns (123 mod{10}) + sum_of_digits(123//10)
+3 + sum_of_digits(12)
+--> 3+3 = 6
+
+sum_of_digits(12) returns (12 \mod{10}) + sum_of_digits(12//10)
+2 + sum_of_digits(1)
+--> 2+1 = 3
+
+sum_of_digits(1) returns (1 mod{10}) + sum_of_digits(1//10)
+1 + sum_of_digits(0)
+--> 1+0 = 1
+
+sum_of_digits(0) hits the base case and returns 
+0
+
+==> 3+2+1 = 6
+"""
+```
+<img width="259" height="34" alt="image" src="https://github.com/user-attachments/assets/6df268d1-fe35-48e5-b346-b6e77c1875e6" />
 
 ### Fibonacci series
 ```py
