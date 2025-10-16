@@ -39,6 +39,20 @@ sum(1,2,3)
 ```
 <img width="32" height="20" alt="image" src="https://github.com/user-attachments/assets/bce8b174-518c-428e-8c6b-8bb699f381bb" />
 
+### Divide function
+```py
+a = int(input("Enter number 1: "))
+b = int(input("Enter number 2: "))
+def safe_divide(a, b):
+    if b==0:
+        print("Cannot divide by zero")
+        return None
+    else: 
+        return(a/b)
+print(safe_divide(a,b))
+```
+<img width="146" height="49" alt="image" src="https://github.com/user-attachments/assets/6b6939fe-f542-459a-907b-b24693f1fe13" />
+
 ### Return as single string
 ```py
 def full_name(first, last):
