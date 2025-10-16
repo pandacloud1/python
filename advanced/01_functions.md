@@ -47,6 +47,18 @@ print(full_name("Panda", "Cloud"))
 ```
 <img width="89" height="20" alt="image" src="https://github.com/user-attachments/assets/7e91a411-66a7-4bab-99db-af64e2983fc5" />
 
+### Calculate area of rectangle
+```py
+length = int(input("Enter length: "))
+width = int(input("Enter width: "))
+
+def calculate_area(length, width):
+    return(length*width)
+
+print(calculate_area(length, width))
+```
+<img width="125" height="49" alt="image" src="https://github.com/user-attachments/assets/59b1324b-eb75-4fc8-acf0-3b2306b7aad8" />
+
 ### Multiply function
 Using positional arguments
 ```py
