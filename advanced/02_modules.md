@@ -56,6 +56,8 @@ num = int(input("Please enter any num: "))
 import module
 print(module.square(num))
 ```
+<img width="166" height="34" alt="image" src="https://github.com/user-attachments/assets/a3b71b3c-b278-42b5-8386-e5e409390550" />
+
 
 ### Requests module (used for external modules)
 ```py
