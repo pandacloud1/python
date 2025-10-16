@@ -160,6 +160,20 @@ print(list(map(square, nums)))
 - Recursion is where a function calls itself again & again
 - Sometimes, we may need to define the base case (values) in recursion
 
+### Factorial function
+```py
+n = int(input("Enter a number: "))
+def fact(n):
+    if n==0 or n==1:
+        return 1
+    # recursive function
+    return n * fact(n-1)
+
+print(fact(n))
+```
+<img width="124" height="37" alt="image" src="https://github.com/user-attachments/assets/158f1747-fc51-4b57-a8bf-7e64909dc178" />
+
+
 ### Fibonacci series
 ```py
 ### Fibonacci series
