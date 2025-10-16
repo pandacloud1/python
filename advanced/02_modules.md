@@ -60,12 +60,6 @@ print(module.square(num))
 <img width="166" height="34" alt="image" src="https://github.com/user-attachments/assets/a3b71b3c-b278-42b5-8386-e5e409390550" />
 
 ### Check if number is even/odd
-main.py
-```py
-n = int(input("Enter a number to check even/odd: "))
-import module
-print(module.is_even(n))
-```
 module.py
 ```py
 def is_even(n):
@@ -73,6 +67,12 @@ def is_even(n):
         return True
     else:
         return False
+```
+main.py
+```py
+n = int(input("Enter a number to check even/odd: "))
+import module
+print(module.is_even(n))
 ```
 <img width="236" height="32" alt="image" src="https://github.com/user-attachments/assets/c40859cd-f66d-44f9-a377-bac352cc1302" />
 
