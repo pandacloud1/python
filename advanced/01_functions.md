@@ -115,6 +115,14 @@ multiply = lambda a,b: a*b
 print(multiply(4,5))
 ```
 
+### Return as single string
+```py
+def full_name(first, last):
+    return (f"{first} {last}")
+print(full_name("Panda", "Cloud"))
+```
+<img width="89" height="20" alt="image" src="https://github.com/user-attachments/assets/7e91a411-66a7-4bab-99db-af64e2983fc5" />
+
 ## RECURSION
 - Recursion is where a function calls itself again & again
 - Sometimes, we may need to define the base case (values) in recursion
