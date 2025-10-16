@@ -135,6 +135,17 @@ multiply = lambda a,b: a*b
 print(multiply(4,5))
 ```
 
+### Lambda function to add 3 nos
+```py
+a = int(input("Enter no.1: "))
+b = int(input("Enter no.2: "))
+c = int(input("Enter no.3: "))
+sum = lambda a,b,c: a+b+c
+print("The sum is: ")
+print(sum(a,b,c))
+```
+<img width="125" height="83" alt="image" src="https://github.com/user-attachments/assets/ef9c01f4-65bf-4212-9020-a627c659d640" />
+
 ## RECURSION
 - Recursion is where a function calls itself again & again
 - Sometimes, we may need to define the base case (values) in recursion
