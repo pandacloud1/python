@@ -7,12 +7,13 @@
 - The dependency py files will be saved locally in your system
 - Commonly used modules: requests, pandas, numpy, math, os, sys, boto3, botocore, etc.
 
-### Math module (to get square root)
+### Math module (Using 'math' module to find square root)
 ```py
+n = int(input("Enter the number to find square root: "))
 import math
-print(math.sqrt(16))
+print(math.sqrt(n))
 ```
-<img width="39" height="19" alt="image" src="https://github.com/user-attachments/assets/6d4225f4-e2ec-45a0-8eea-3d85bb4d053e" />
+<img width="277" height="32" alt="image" src="https://github.com/user-attachments/assets/432f6cc7-a07a-4e40-a014-8b09671ff20b" />
 
 ### Simple 'Hello World' module
 module.py
