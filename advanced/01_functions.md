@@ -116,7 +116,7 @@ print(a1,a2,a3)
 - It is a one liner function
 - It will help you to save multiple lines of code
   
-### Sum function
+### Lambda - Sum function
 ```py
 sum = lambda a,b: a+b
 print(sum(2,3))
@@ -129,13 +129,13 @@ print(sum(2,3))
 ```
 <img width="32" height="16" alt="image" src="https://github.com/user-attachments/assets/f06ab0e7-a974-4e9f-93c4-add59f5a74a0" />
 
-### Multiply function
+### Lambda - Multiply function
 ```py
 multiply = lambda a,b: a*b
 print(multiply(4,5))
 ```
 
-### Lambda function to add 3 nos
+### Lambda - Add 3 nos
 ```py
 a = int(input("Enter no.1: "))
 b = int(input("Enter no.2: "))
@@ -145,6 +145,16 @@ print("The sum is: ")
 print(sum(a,b,c))
 ```
 <img width="125" height="83" alt="image" src="https://github.com/user-attachments/assets/ef9c01f4-65bf-4212-9020-a627c659d640" />
+
+### Lambda - Print square of list [Using map()]
+```py
+nums = [1,2,3,4,5]
+square = lambda x: x*x
+
+print(list(map(square, nums)))
+```
+<img width="118" height="22" alt="image" src="https://github.com/user-attachments/assets/99f939c9-de08-483d-a9e2-75bd16802b73" />
+
 
 ## RECURSION
 - Recursion is where a function calls itself again & again
