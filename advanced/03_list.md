@@ -51,7 +51,7 @@ print (fruits)
 fruits.sort()                    # sort the items
 print (fruits)
 
-fruits.remove('Guava')           # delete specific item
+fruits.remove('Guava')           # remove specific item
 print (fruits)
 ```
 <img width="412" height="97" alt="image" src="https://github.com/user-attachments/assets/c2d91381-5304-4823-87ae-9b4ba33c371f" />
