@@ -9,7 +9,7 @@ print(marks)          # print all
 print(marks[2:4])     # print index range
 
 mixed = ["Mumbai", 2, True, 2.2, "Maharashtra"]
-print(mixed)          # print all
+print(mixed)                                  # print all
 print(f"The city name is {mixed[0]}")         # print specific index
 print(f"The national rank is {mixed[1]}")     # print specific index
 print(f"Is it a capital city? {mixed[2]}")    # print specific index
