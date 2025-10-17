@@ -31,3 +31,27 @@ marks[4] = 87
 print(marks)         # print the changed list
 ```
 <img width="139" height="35" alt="image" src="https://github.com/user-attachments/assets/98ccee8a-28d6-4f88-bdcc-30d6a20a6e30" />
+
+### List methods (Paris)
+```py
+fruits = ['Apple','Banana','Cherry','Dates','Figs']
+
+fruits.pop()                     # pop out last item
+print (fruits)
+
+fruits.append('Guava')           # append: add something at the end
+print (fruits)
+
+fruits.reverse() 
+print (fruits)
+
+fruits.insert(1, 'Dragonfruit')  # insert at specific index (eg. 1)
+print (fruits)
+
+fruits.sort()
+print (fruits)
+
+fruits.remove('Guava')           # delete specific item
+print (fruits)
+```
+<img width="412" height="97" alt="image" src="https://github.com/user-attachments/assets/c2d91381-5304-4823-87ae-9b4ba33c371f" />
