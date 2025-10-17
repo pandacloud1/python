@@ -42,13 +42,13 @@ print (fruits)
 fruits.append('Guava')           # append: add something at the end
 print (fruits)
 
-fruits.reverse() 
+fruits.reverse()                 # reverse items in the list
 print (fruits)
 
 fruits.insert(1, 'Dragonfruit')  # insert at specific index (eg. 1)
 print (fruits)
 
-fruits.sort()
+fruits.sort()                    # sort the items
 print (fruits)
 
 fruits.remove('Guava')           # delete specific item
