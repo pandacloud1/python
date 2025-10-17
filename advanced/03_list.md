@@ -10,9 +10,12 @@ print(marks[2:4])     # print index range
 
 mixed = ["Mumbai", 2, True, 2.2, "Maharashtra"]
 print(mixed)          # print all
-print(mixed[0])       # print specific index
+print(f"The city name is {mixed[0]}")         # print specific index
+print(f"The national rank is {mixed[1]}")     # print specific index
+print(f"Is it a capital city? {mixed[2]}")    # print specific index
+print(f"The population is {mixed[3]} crore")  # print specific index
 ```
-<img width="267" height="65" alt="image" src="https://github.com/user-attachments/assets/8101fba0-21fa-4858-9fa9-f37352e4aeaa" />
+<img width="269" height="112" alt="image" src="https://github.com/user-attachments/assets/3c6dda7a-f0a8-46c7-a354-5f8a25d06e87" />
 
 ### Changing the list
 ```py
