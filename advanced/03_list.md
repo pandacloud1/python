@@ -16,6 +16,8 @@ print(mixed[0])       # print specific index
 
 ### Changing the list
 ```py
+# Lists are mutuable, below is an example
+# This doesn't works with string
 marks = [45,67,93,75,82]
 print(marks)          # print all
 marks[0] = 51
