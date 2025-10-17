@@ -78,3 +78,11 @@ table = [5*i for i in range(1,11)]
 print (table)
 ```
 <img width="261" height="18" alt="image" src="https://github.com/user-attachments/assets/80662da4-92c5-47a2-84cb-fa696bf66598" />
+
+#### Square of list of numbers
+```py
+x = int(input("Enter the last number to check square: "))
+sq = [i**2 for i in range(1,x+1)]
+print(sq)
+```
+<img width="273" height="34" alt="image" src="https://github.com/user-attachments/assets/c6845a79-f274-4ae8-98f1-fbe6cc692d67" />
