@@ -13,6 +13,4 @@ print(tup)
 tup[2] = "Institute"
 print(tup)
 ```
-<img width="214" height="20" alt="image" src="https://github.com/user-attachments/assets/e2b1b9be-3552-4c35-8645-c24523c9c099" />
-<img width="388" height="46" alt="image" src="https://github.com/user-attachments/assets/b8e8c6ed-a17d-4bac-9eae-1851bfc2e6a9" />
-
+<img width="1144" height="220" alt="image" src="https://github.com/user-attachments/assets/5e0286e3-4824-4323-bd47-a27ab425c614" />
