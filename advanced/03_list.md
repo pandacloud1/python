@@ -62,6 +62,7 @@ print (fruits)
 <img width="410" height="113" alt="image" src="https://github.com/user-attachments/assets/9c3ca19f-4de6-4758-935e-b1b23b283408" />
 
 ### List comprehension
+#### Table of a number
 ```py
 ### Used to combine multiple steps to one
 ### Below is an example of table of 5
