@@ -61,3 +61,19 @@ print (fruits)
 ```
 <img width="410" height="113" alt="image" src="https://github.com/user-attachments/assets/9c3ca19f-4de6-4758-935e-b1b23b283408" />
 
+### List comprehension
+```py
+### Used to combine multiple steps to one
+### Below is an example of table of 5
+
+### Long method
+table = []
+for i in range(1,11):
+    table.append(5*i)
+print(table)
+
+### Short method
+table = [5*i for i in range(1,11)]
+print (table)
+```
+<img width="261" height="18" alt="image" src="https://github.com/user-attachments/assets/80662da4-92c5-47a2-84cb-fa696bf66598" />
