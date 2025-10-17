@@ -34,7 +34,12 @@ print(marks)         # print the changed list
 
 ### List methods (Paris)
 ```py
-fruits = ['Apple','Banana','Cherry','Dates','Figs']
+### List methods (Paris)
+fruits = ['Apple','Banana']
+new_list = ['Cherry','Dates','Figs']
+
+fruits.extend(new_list)
+print (fruits)
 
 fruits.pop()                     # pop out last item
 print (fruits)
@@ -42,16 +47,17 @@ print (fruits)
 fruits.append('Guava')           # append: add something at the end
 print (fruits)
 
-fruits.reverse()                 # reverse items in the list
+fruits.reverse() 
 print (fruits)
 
 fruits.insert(1, 'Dragonfruit')  # insert at specific index (eg. 1)
 print (fruits)
 
-fruits.sort()                    # sort the items
+fruits.sort()
 print (fruits)
 
-fruits.remove('Guava')           # remove specific item
+fruits.remove('Guava')           # delete specific item
 print (fruits)
 ```
-<img width="412" height="97" alt="image" src="https://github.com/user-attachments/assets/c2d91381-5304-4823-87ae-9b4ba33c371f" />
+<img width="410" height="113" alt="image" src="https://github.com/user-attachments/assets/9c3ca19f-4de6-4758-935e-b1b23b283408" />
+
