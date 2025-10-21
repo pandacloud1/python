@@ -1,9 +1,10 @@
 ## TUPLES
 - Tuples are same as list
-- But they cannot be altered (immutable)
+- But they cannot be altered (immutable), so they are safe from modifications
 - They are written inside round braces()
 - You can add a single entry in list, but in tuples you need to add additional comma [eg. name = ("Panda",)]
 - Unlike list methods, tuples do not have any tuple methods
+- They are hashable (used as dictionary keys)
 
 ### Tuple example
 ```py
