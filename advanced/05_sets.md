@@ -10,4 +10,4 @@ fruits = {"banana", "apple", "guava"}
 print(fruits)
 print(fruits[0])     # this is not possible
 ```
-<img width="120" height="90" alt="image" src="https://github.com/user-attachments/assets/6e9d9fc9-57c7-4cd3-8506-72650842ff6c" />
+<img width="459" height="183" alt="image" src="https://github.com/user-attachments/assets/348d8f84-6c3f-4b4a-8bc7-608bb3225256" />
