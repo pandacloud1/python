@@ -22,8 +22,8 @@ print(union)
 
 intersect = set1.intersection(set2)
 print(intersect)
-```
-<img width="145" height="51" alt="image" src="https://github.com/user-attachments/assets/4966647f-4d05-47b7-b2a0-926621a64fbe" />
 
 diff = set1.difference(set2)
 print(diff)
+```
+<img width="145" height="51" alt="image" src="https://github.com/user-attachments/assets/4966647f-4d05-47b7-b2a0-926621a64fbe" />
