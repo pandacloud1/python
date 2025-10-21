@@ -1,5 +1,5 @@
 ## DICTIONARY
-- Dictionary store key-value pair for faster lookup
+- Dictionary stores key-value pair for faster lookup
 - You can change the values in the dictionary (mutuable)
 
 ### Dictionary example
