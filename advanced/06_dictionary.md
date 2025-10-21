@@ -23,3 +23,12 @@ print(student.keys())
 print(student.values())
 ```
 <img width="254" height="35" alt="image" src="https://github.com/user-attachments/assets/d62fba55-3cf5-4326-8cd4-3d4f1dae0087" />
+
+### Removing key: value
+```py
+student = {"name": "alexa", "age": 21, "location": "usa"}
+
+student.pop("age")
+print(student)
+```
+<img width="242" height="23" alt="image" src="https://github.com/user-attachments/assets/1259ec22-aa99-44b0-9915-1214e6879eec" />
