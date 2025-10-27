@@ -11,13 +11,14 @@
 
 ### Define class & object
 ```py
+# define class
 class Employee:
     company = "Panda Cloud"
    
     def salary(self):           # Here 'self' is mandatory
         return 150000
 
-# Create object                 # for class 'Employee'
+# define object                 # for class 'Employee'
 e1 = Employee()
 print(e1.company)               
 print(e1.salary())              # here 'salary' method is called
