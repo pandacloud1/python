@@ -24,3 +24,24 @@ print(e1.company)
 print(e1.salary())              # here 'salary' method is called
 ```
 <img width="83" height="34" alt="image" src="https://github.com/user-attachments/assets/d6a687b2-e25c-4cfd-8db0-954be6ca9a62" />
+
+### Creating constructors
+```py
+class Employee:
+
+    def __init__(self, name, age, salary):
+        self.name = name
+        self.age = age
+        self.salary = salary
+    
+    def salary(self):
+        print (self.salary())
+    
+    def info(self):
+        print(f"Employee name is {self.name}, age is {self.age} & salary is {self.salary}")
+
+e1 = Employee("alexa", 21, 123456)
+print(e1.salary)
+e1.info()
+```
+<img width="346" height="33" alt="image" src="https://github.com/user-attachments/assets/c0406bd9-a0a4-402a-a87d-c26224ea464f" />
