@@ -4,7 +4,7 @@
 - Attributes represent features
 - Methods represent actions
 - Example:
-  - Design of a house is a class
-  - Building the actual house is an object
-  - House features like rooms, doors and windows are attribute
-  - Opening/closing doors, switch on/off lights are actions
+  - Design of a house is a Class
+  - Building the actual house is an Object
+  - House features like rooms, doors and windows are Actions
+  - Opening/closing doors, switch on/off lights are Methods
