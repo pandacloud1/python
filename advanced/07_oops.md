@@ -45,3 +45,23 @@ print(e1.salary)
 e1.info()
 ```
 <img width="346" height="33" alt="image" src="https://github.com/user-attachments/assets/c0406bd9-a0a4-402a-a87d-c26224ea464f" />
+
+### Working on parent class & inheritance
+```py
+class Animal:
+    def __init__ (self, name):
+        self.name = name
+    def speak(self):
+        print("Speaking now...")
+
+class Dog(Animal):
+    def speak(self):
+        print("Bow bow")
+
+a = Animal("Dog")
+a.speak()
+
+d = Dog("Bruno")
+d.speak()
+```
+<img width="109" height="32" alt="image" src="https://github.com/user-attachments/assets/6f08a925-d951-4728-835b-9fb45eb35df4" />
