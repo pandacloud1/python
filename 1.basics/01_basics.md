@@ -1,5 +1,8 @@
 ## Python Basics
 
+- Setup VS Code
+- Install Python [https://www.python.org/downloads/]
+
 ### Printing message
 ```py
 print ("Hello World")
