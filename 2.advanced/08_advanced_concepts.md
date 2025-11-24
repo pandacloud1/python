@@ -1,5 +1,6 @@
 ## DECORATORS
 - "Decorator" is a way to extend behaviour of functions
+- It is something that runs before and after the main function
 - There is no need to alter the code
 - It can take another function as an argument
 - We need to "wrap" the orginal function with additional logic
