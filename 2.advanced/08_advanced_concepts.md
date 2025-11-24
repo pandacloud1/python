@@ -20,4 +20,5 @@ def my_line():
 f = decorator(my_line)
 f()
 ```
-<img width="336" height="92" alt="image" src="https://github.com/user-attachments/assets/dfd71b10-fa5a-481f-b35a-8220afeaf8e3" />
+<img width="265" height="83" alt="image" src="https://github.com/user-attachments/assets/ad318e1a-003c-453b-942d-2b3b987792ee" />
+
