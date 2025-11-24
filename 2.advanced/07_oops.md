@@ -93,8 +93,6 @@ class Point:
         self.x = x
         self.y = y
     
-    def sum(self, p):
-        return Point((self.x+p.x), (self.y+p.y))
     def print_point(self):
         return (f"X is {self.x} & Y is {self.y}")
     def __add__ (self, p):
