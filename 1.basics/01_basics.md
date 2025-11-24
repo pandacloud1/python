@@ -7,7 +7,7 @@
 ```py
 print ("Hello World")
 ```
-<img width="301" height="62" alt="image" src="https://github.com/user-attachments/assets/d8961cc3-b70d-4946-bbb6-6bab21046584" />
+<img width="301" height="62" alt="image" src="https://github.com/user-attachments/assets/d8961cc3-b70d-4946-bbb6-6bab21046584" /><br>
 Alternatively, you can directly hit the run button in VS Code to execute python code.
 
 ### Multi-line comment
