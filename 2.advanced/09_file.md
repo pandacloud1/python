@@ -52,12 +52,16 @@ f.close()
   - write & append will create a file
 
  ## WORKING WITH RELATED FILE MODULES
- ### OS Module
+ ### oS module
  ```py
 import os
-l = os.listdir("dir")
-print(l)
+print(os.listdir("dir"))
+print(os.getcwd())            # checks current work dir
+print(os.path.exists("dir"))  # check if file exists or not
+os.remove("abcfile.txt")      # removes files
+os.rmdir("abcdir")            # removes empty directories only
 ```
 <img width="197" height="200" alt="image" src="https://github.com/user-attachments/assets/d97d1260-5d77-42e9-b243-9a5ac85f5848" />
-<img width="430" height="25" alt="image" src="https://github.com/user-attachments/assets/d09ca983-9744-4cd3-9530-8364df3fced4" />
+<img width="431" height="77" alt="image" src="https://github.com/user-attachments/assets/94d2a393-4e64-4479-94aa-36b3988e7182" />
+
 
