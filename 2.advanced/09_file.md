@@ -15,6 +15,13 @@ content=f.read()
 print(content)
 f.close()
 ```
+OR
+```py
+with open("file.txt", 'r') as f:
+    content = f.read()
+    print(content)
+# no need to close the file if using 'with'
+```
 <img width="643" height="73" alt="image" src="https://github.com/user-attachments/assets/ce21c0da-977a-4c58-b56d-c90d868a0395" />
 
 ### Creating & writing to a file
