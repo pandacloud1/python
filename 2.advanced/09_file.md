@@ -50,3 +50,13 @@ f.close()
 - What if file doesn't exists:
   - read will throw an error
   - write & append will create a file
+
+ ## WORKING WITH RELATED FILE MODULES
+ ### OS Module
+ ```py
+import os
+l = os.listdir("dir")
+print(l)
+```
+<img width="197" height="200" alt="image" src="https://github.com/user-attachments/assets/d97d1260-5d77-42e9-b243-9a5ac85f5848" />
+<img width="427" height="37" alt="image" src="https://github.com/user-attachments/assets/b54b76d0-58a3-4aa6-bb6a-d4d7b2222220" />
