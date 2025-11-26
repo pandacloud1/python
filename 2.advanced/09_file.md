@@ -52,7 +52,7 @@ f.close()
   - write & append will create a file
 
  ## WORKING WITH RELATED FILE MODULES
- ### oS module
+ ### os module
  ```py
 import os
 print(os.listdir("dir"))
@@ -64,4 +64,15 @@ os.rmdir("abcdir")            # removes empty directories only
 <img width="197" height="200" alt="image" src="https://github.com/user-attachments/assets/d97d1260-5d77-42e9-b243-9a5ac85f5848" />
 <img width="431" height="77" alt="image" src="https://github.com/user-attachments/assets/94d2a393-4e64-4479-94aa-36b3988e7182" />
 
+### shutil module
+```py
+import shutil 
+import os
+shutil.copy("test.py", "test.txt")
+os.mkdir("dir")
+os.mkdir("dir2")
+shutil.move("test.txt", "dir/")
+shutil.rmtree("dir2")
+```
+<img width="167" height="106" alt="image" src="https://github.com/user-attachments/assets/27f93a71-4960-4494-9f5e-eef4c6f5f20a" />
 
