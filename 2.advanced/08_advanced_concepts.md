@@ -34,6 +34,15 @@ def my_line():
 
 f = decorator(my_line)
 f()
+
+
+"""
+Imagine your my_line() function is a gift [my_line() --> func].
+- A decorator is the gift wrapping process.
+- my_line() or func = the original gift
+- wrapper = wrapped gift with decoration
+
+The return wrapper returns the wrapped gift.
 ```
 <img width="412" height="125" alt="image" src="https://github.com/user-attachments/assets/ad9747a7-8ec3-45b8-bf6c-4310c88fd7d9" />
 
