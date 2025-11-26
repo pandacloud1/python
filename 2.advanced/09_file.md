@@ -10,7 +10,7 @@ It is important to close the file after reading it
 ```
 
 ```py
-f = open("file.txt", "r")    # r is used to read text, use 'rb' to read binaries
+f = open("file.txt", "r")    # 'r' or 'rt' is used to read text, use 'rb' to read binaries
 content=f.read()
 
 print(content)
