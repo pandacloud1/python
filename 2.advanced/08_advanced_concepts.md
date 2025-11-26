@@ -47,7 +47,7 @@ The return wrapper returns the wrapped gift.
 ```
 <img width="412" height="125" alt="image" src="https://github.com/user-attachments/assets/ad9747a7-8ec3-45b8-bf6c-4310c88fd7d9" />
 
-Decorator & Wrapper (Calling function multiple times)
+You can call function multiple times
 ```py
 def decorator(func):
     def wrapper():
