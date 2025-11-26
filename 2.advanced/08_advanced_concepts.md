@@ -68,3 +68,18 @@ f()
 ```
 <img width="413" height="231" alt="image" src="https://github.com/user-attachments/assets/8c61e495-4ad1-4977-a75f-07a5ed9f41fa" />
 
+- Simplified code (using @decorators)
+```py
+def decorator(func):
+    def wrapper():
+        print("First line")
+        func()
+        print("Third line")
+    return wrapper
+@decorator                 # simplified way to write decorators
+def my_line():
+    print("MAIN LINE")
+
+my_line()
+
+```
