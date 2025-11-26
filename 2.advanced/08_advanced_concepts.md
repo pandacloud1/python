@@ -18,7 +18,7 @@
   - It help you to verify permissions (Authorization)
   - Retry failed calls, store results, open/close sessions, etc
 
-- Decorator & Wraper
+### Decorator & Wraper
 ```py
 def decorator(func):
     def wrapper():
@@ -45,7 +45,7 @@ Imagine your my_line() function is a gift [my_line() --> func].
 The return wrapper returns the wrapped gift.
 """
 ```
-- Simplified code (using @decorators)
+### Simplified code (using @decorators)
 ```py
 def decorator(func):
     def wrapper():
@@ -62,7 +62,7 @@ my_line()
 ```
 <img width="412" height="125" alt="image" src="https://github.com/user-attachments/assets/ad9747a7-8ec3-45b8-bf6c-4310c88fd7d9" />
 
-- You can call function multiple times
+### You can call function multiple times
 ```py
 def decorator(func):
     def wrapper():
@@ -83,7 +83,7 @@ f()
 ```
 <img width="413" height="231" alt="image" src="https://github.com/user-attachments/assets/8c61e495-4ad1-4977-a75f-07a5ed9f41fa" />
 
-- Using function with arguments
+### Using function with arguments
 ```py
 def repeat(n):
     def decorator(func):
