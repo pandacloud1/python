@@ -26,3 +26,15 @@ f.write(string)
 f.close()
 ```
 `Output: A file named file2.txt will be created`
+
+### Appending to a file 
+```py
+f = open("file2.txt", "a")
+string = """
+These are the additional lines I have added to the file.
+I have used the append option to add additional text
+"""
+f.write(string)
+f.close()
+```
+<img width="748" height="146" alt="image" src="https://github.com/user-attachments/assets/c7d7767a-0c6e-464f-9884-9121020ded23" />
