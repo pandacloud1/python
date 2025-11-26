@@ -16,3 +16,13 @@ print(content)
 f.close()
 ```
 <img width="643" height="73" alt="image" src="https://github.com/user-attachments/assets/ce21c0da-977a-4c58-b56d-c90d868a0395" />
+
+### Creating & writing to a file
+```py
+f = open("file2.txt", "w")
+string = """This is a file we are creating from python.
+This is where we can write to a file"""
+f.write(string)
+f.close()
+```
+`Output: A file named file2.txt will be created`
