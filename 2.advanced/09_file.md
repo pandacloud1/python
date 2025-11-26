@@ -59,4 +59,5 @@ l = os.listdir("dir")
 print(l)
 ```
 <img width="197" height="200" alt="image" src="https://github.com/user-attachments/assets/d97d1260-5d77-42e9-b243-9a5ac85f5848" />
-<img width="427" height="37" alt="image" src="https://github.com/user-attachments/assets/b54b76d0-58a3-4aa6-bb6a-d4d7b2222220" />
+<img width="430" height="25" alt="image" src="https://github.com/user-attachments/assets/d09ca983-9744-4cd3-9530-8364df3fced4" />
+
