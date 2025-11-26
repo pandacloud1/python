@@ -83,3 +83,20 @@ def my_line():
 my_line()
 
 ```
+- Using function with arguments
+```py
+def repeat(n):
+    def decorator(func):
+        def wrapper(a):
+            for i in range(n):
+                func(a)
+        return wrapper
+    return decorator
+
+@repeat(7)
+def hello(a):
+    print(f"Hello! {a}")
+
+hello("World")
+```
+<img width="161" height="181" alt="image" src="https://github.com/user-attachments/assets/54bbd14f-0cea-4af2-a4a0-7fc4f233bc8f" />
