@@ -38,3 +38,8 @@ f.write(string)
 f.close()
 ```
 <img width="748" height="146" alt="image" src="https://github.com/user-attachments/assets/c7d7767a-0c6e-464f-9884-9121020ded23" />
+
+#### Note:
+- What if file doesn't exists:
+  - read will throw an error
+  - write & append will create a file
