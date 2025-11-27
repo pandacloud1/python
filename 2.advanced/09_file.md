@@ -53,8 +53,6 @@ f.close()
  
 ### Counting number of lines in a file
 ```py
-import sys
-
 with open("file1.txt", "r") as f:
   lines = f.readlines()
   print(f"The number of lines are {len(lines)}")
