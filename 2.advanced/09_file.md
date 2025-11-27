@@ -84,6 +84,26 @@ shutil.rmtree("dir2")
 ```
 <img width="167" height="106" alt="image" src="https://github.com/user-attachments/assets/27f93a71-4960-4494-9f5e-eef4c6f5f20a" />
 
+### sys module
+```py
+### Take file name & word & print number of times the word appears
+import sys
+
+def search_word(word, string):
+    return string.count(word)
+
+if __name__ == "__main__":
+    filename = sys.argv[1]
+    word = sys.argv[2]
+    with open(filename) as f:
+        string = f.read()
+        n = search_word(word, string)
+        print(n)
+```
+<img width="427" height="107" alt="image" src="https://github.com/user-attachments/assets/6c4cd451-31e7-4a20-be73-5b9b24c59013" />
+<img width="507" height="47" alt="image" src="https://github.com/user-attachments/assets/38e16f85-43e5-4a35-804a-a2a5a61622c7" />
+
+
 ## COMMAND LINE UTILITIES
 ### Creating Command line utilities
 ```py
