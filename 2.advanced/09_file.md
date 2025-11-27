@@ -50,6 +50,16 @@ f.close()
 - What if file doesn't exists:
   - read will throw an error
   - write & append will create a file
+ 
+### Counting number of lines in a file
+```py
+import sys
+
+with open("file1.txt", "r") as f:
+  lines = f.readlines()
+  print(f"The number of lines are {len(lines)}")
+```
+<img width="293" height="30" alt="image" src="https://github.com/user-attachments/assets/a054a3e4-9f4d-490f-ad9c-4d86fda78f05" />
 
  ## WORKING WITH RELATED FILE MODULES
  ### os module
