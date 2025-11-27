@@ -76,3 +76,34 @@ shutil.rmtree("dir2")
 ```
 <img width="167" height="106" alt="image" src="https://github.com/user-attachments/assets/27f93a71-4960-4494-9f5e-eef4c6f5f20a" />
 
+## COMMAND LINE UTILITIES
+### Creating Command line utilities
+```py
+import argparse
+
+parser = argparse.ArgumentParser(description = "Simple Calculator")
+# ArgumentParser is a class from argparse module
+# It allows your program to accept input from the terminal
+# So instead of typing values inside the code, users can give inputs when running the script in terminal
+
+parser.add_argument("num1", type=float, help="First_number")
+parser.add_argument("num2", type=float, help="Second_number")
+parser.add_argument("operation", choices=["add", "sub", "mult", "div"], help="Operation")
+
+args = parser.parse_args()
+# parse_args() reads the values that the user passes from the command line and stores them in an object (args).
+print(args)
+
+if(args.operation == "add"):
+    print(f"The sum is {args.num1 + args.num2}")
+elif(args.operation == "sub"):
+    print(f"The difference is {args.num1 - args.num2}")
+elif(args.operation == "mult"):
+    print(f"The sum is {args.num1 * args.num2}")
+elif(args.operation == "div"):
+    print(f"The sum is {args.num1 / args.num2}")
+else:
+    print("Error: Invalid input")
+```
+<img width="565" height="307" alt="image" src="https://github.com/user-attachments/assets/c62b14b2-ecc3-4a39-9e72-1276133e86ba" />
+
