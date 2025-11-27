@@ -82,28 +82,26 @@ shutil.rmtree("dir2")
 import argparse
 
 parser = argparse.ArgumentParser(description = "Simple Calculator")
-# ArgumentParser is a class from argparse module
-# It allows your program to accept input from the terminal
-# So instead of typing values inside the code, users can give inputs when running the script in terminal
 
-parser.add_argument("num1", type=float, help="First_number")
-parser.add_argument("num2", type=float, help="Second_number")
-parser.add_argument("operation", choices=["add", "sub", "mult", "div"], help="Operation")
+parser.add_argument("num1", type=float)
+parser.add_argument("num2", type=float)
+parser.add_argument("operation", choices=["add","sub","mul","div"])
 
 args = parser.parse_args()
-# parse_args() reads the values that the user passes from the command line and stores them in an object (args).
-print(args)
 
 if(args.operation == "add"):
     print(f"The sum is {args.num1 + args.num2}")
 elif(args.operation == "sub"):
     print(f"The difference is {args.num1 - args.num2}")
-elif(args.operation == "mult"):
-    print(f"The sum is {args.num1 * args.num2}")
+elif(args.operation == "mul"):
+    print(f"The multiplication is {args.num1 * args.num2}")
 elif(args.operation == "div"):
-    print(f"The sum is {args.num1 / args.num2}")
+    print(f"The division is {args.num1 / args.num2}")
 else:
     print("Error: Invalid input")
+
+print(args)
 ```
-<img width="565" height="307" alt="image" src="https://github.com/user-attachments/assets/c62b14b2-ecc3-4a39-9e72-1276133e86ba" />
+<img width="522" height="308" alt="image" src="https://github.com/user-attachments/assets/56740ae6-b23e-4453-886b-1a8633381a85" />
+
 
