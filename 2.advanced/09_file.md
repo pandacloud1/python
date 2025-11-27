@@ -100,7 +100,7 @@ elif(args.operation == "div"):
 else:
     print("Error: Invalid input")
 
-print(args)
+print(args)    # remove this line, if you do not want to print namespace 
 ```
 <img width="522" height="308" alt="image" src="https://github.com/user-attachments/assets/56740ae6-b23e-4453-886b-1a8633381a85" />
 
