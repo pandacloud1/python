@@ -1,4 +1,4 @@
-## REQUEST MODULE
+## REQUESTS MODULE
 
 - It is used to get data in form of text, json from URLs
 - It simplifies the process of sending HTTP requests
