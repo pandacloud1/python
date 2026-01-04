@@ -46,7 +46,7 @@ print (new_text)
 
 ### Find and replace
 ```py
-# Let's replace 'fox' with 'CAT' (using re.sub)
+# Let's replace 'fox' with 'CAT' (using 're.sub')
 import re
 text = "The quick brown fox jumps over the lazy dog"
 
