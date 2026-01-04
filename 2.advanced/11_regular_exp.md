@@ -34,7 +34,8 @@ if result:
 
 ### Find the number of occurences of a word
 ```py
-# Let's print the number of occurences of the word 'the'
+# Let's print the number of occurences of the word 'the' (using 're.findall')
+# Also use 're.IGNORECASE' to avoid case-sensitive search
 import re
 text = "The quick brown fox jumps over the lazy dog"
 
