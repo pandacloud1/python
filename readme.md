@@ -32,15 +32,15 @@
 <img width="405" height="460" alt="image" src="https://github.com/user-attachments/assets/9cb95642-d672-49f8-8cbc-f5312f34c11c" />
 
 ##	Variables
-	They are containers that store a value
-	Rules for defining a variable
+-	They are containers that store a value
+-	Rules for defining a variable
 -	a. Variables include letters, underscores & numbers
 -	b. Variables can start with letter or underscore, but not a number
 -	c. Variables are case-sensitive
 -	d. Do not use the standard variables used in python (eg. if, else, for, while, etc)
 	
 ##	Typecasting in Python
-	Typecasting is used to convert one data type to another
+-	Typecasting is used to convert one data type to another
 -	Eg: a. Let's say you want to convert string to integer number 5 (type: string) --> 5 (type: int)
 ```py
 	a = "5"
@@ -80,7 +80,7 @@
 -	Simply type 'python' in the terminal & perform operations like +,-,/,*, etc
 	
 ## Operators in Python
-[https://github.com/pandacloud1/python/blob/main/basics/01_basics.md#arithmetic-operators]
+https://github.com/pandacloud1/python/blob/main/basics/01_basics.md#arithmetic-operators
 - Arithmetric Operators: +, -, *, /, //, %
 - Assignment Operators: a=30, a+=5 --> O/P: 35; a-=5 --> O/P: 25
 - Conditional Operators: ==, !=, >, >=, <, <=
@@ -93,22 +93,24 @@ b. Only False or False are "False", rest all combinations will give you a "True"
 c. We can reverse the output by using (not(True) --> False or vice versa
 
 ## Conditional Statements
-  [https://github.com/pandacloud1/python/blob/main/basics/statements.md]
+  https://github.com/pandacloud1/python/blob/main/basics/statements.md
 	
 ## Loops
-  [https://github.com/pandacloud1/python/blob/main/basics/loops.md]
+  https://github.com/pandacloud1/python/blob/main/basics/loops.md
 -	For loop
 -	While loop --> ICAI
 		
 ## STRING
-  [https://github.com/pandacloud1/python/blob/main/basics/06_strings.md]
+  https://github.com/pandacloud1/python/blob/main/basics/06_strings.md
 -	String index starts from 0
 -	The last letter in string can be denoted with "-1"
 -	The index can be found by adding length of string with the reverse index  [5+(-4) = 1]
+```sh
 	( P    A   N   D   A)
 	( 0    1   2   3   4)
 	(-5  -4  -3  -2  -1)
-	
+```
+
 ## String methods
 - You can perform multiple functions on strings like upper, lower, capitalize, title, length
 	
@@ -118,10 +120,10 @@ c. We can reverse the output by using (not(True) --> False or vice versa
 -	You define the function, where you create your own program
 -	And then you need to call the function
 -	Functions help you avoid repetition & can save lot of time with repeated lines of code
-  [https://github.com/pandacloud1/python/blob/main/advanced/01_functions.md]
+  https://github.com/pandacloud1/python/blob/main/advanced/01_functions.md
 	
 ## Modules
-   [https://github.com/pandacloud1/python/blob/main/advanced/02_modules.md]
+   https://github.com/pandacloud1/python/blob/main/advanced/02_modules.md
 	
 ## LISTS
    What are lists?
