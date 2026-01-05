@@ -163,7 +163,7 @@ Reference:
 
 * String index starts from `0`
 * The last character can be accessed using `-1`
-* Index can be calculated using string length
+* Index can be calculated using string length (eg. [5+(-4) = 1])
 
 ```text
 ( P    A    N    D    A )
