@@ -206,5 +206,3 @@ Reference:
 * They can store different data types
 * You can add, remove, or update elements
 * Lists are **mutable** (changeable)
-* Add **small code examples** under each topic
-* Convert it into a **training-friendly format** (Day 1 / Day 2 style)
