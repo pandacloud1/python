@@ -88,9 +88,9 @@ https://github.com/pandacloud1/python/blob/main/basics/01_basics.md#arithmetic-o
 ![Uploading image.png…]()
  
 ### Note: 
-a. Only True & True are "True", rest all combinations will give you a "False")
-b. Only False or False are "False", rest all combinations will give you a "True")
-c. We can reverse the output by using (not(True) --> False or vice versa
+- a. Only True & True are "True", rest all combinations will give you a "False")
+- b. Only False or False are "False", rest all combinations will give you a "True")
+- c. We can reverse the output by using (not(True) --> False or vice versa
 
 ## Conditional Statements
   https://github.com/pandacloud1/python/blob/main/basics/statements.md
