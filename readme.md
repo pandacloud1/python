@@ -154,7 +154,7 @@ Reference:
 Types:
 
 * `for` loop
-* `while` loop
+* `while` loop (ICAI)
 
 ## STRING
 
