@@ -123,6 +123,7 @@ Reference:
   * `a -= 5` → Output: 25
 * **Conditional Operators**: `==`, `!=`, `>`, `>=`, `<`, `<=`
 * **Logical Operators**: `and`, `or`, `not`
+<img width="450" height="252" alt="image" src="https://github.com/user-attachments/assets/e6ed2878-cff2-442b-9842-4df783dbf3a4" />
 
 ### Note:
 
