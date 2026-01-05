@@ -54,3 +54,7 @@ new_text = re.sub("fox", "CAT", text)
 print (new_text)
 ```
 <img width="493" height="22" alt="image" src="https://github.com/user-attachments/assets/0fa3af47-bb5b-4991-ae1a-3d5e7e811e2f" />
+
+### Note:
+- You can integrate Open AI LLM APIs with your Python code (LLM: Language Learning Models)
+- You need to go to Open AI portal, but this APIs are chargeable
