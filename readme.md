@@ -6,8 +6,6 @@
 * Run the file using `py` as a prefix (e.g., `py test.py`)
 * Alternatively, you can directly click the **Run** button in VS Code to execute Python code
 
----
-
 ## VS Code Shortcuts
 
 * `Ctrl + /` → Comment/uncomment multiple lines
@@ -25,15 +23,11 @@
 
   * Shows keyboard shortcuts on screen
 
----
-
 ## Python Basics
 
 * Indentation helps Python understand which lines belong to a block of code
 * Syntax ensures the code follows a set of rules understood by the computer
 * Python is widely used in **Data Science & AI** due to its large collection of libraries
-
----
 
 ## Python Data Types
 
@@ -50,8 +44,6 @@ Python is a **dynamically typed language**, so you don’t need to declare data 
 
 <img width="405" height="460" alt="image" src="https://github.com/user-attachments/assets/9cb95642-d672-49f8-8cbc-f5312f34c11c" />
 
----
-
 ## Variables
 
 * Variables are containers used to store values
@@ -62,8 +54,6 @@ Python is a **dynamically typed language**, so you don’t need to declare data 
 * They must start with a letter or underscore (not a number)
 * Variables are case-sensitive
 * Do not use Python keywords (e.g., `if`, `else`, `for`, `while`)
-
----
 
 ## Typecasting in Python
 
@@ -85,16 +75,12 @@ a = 5
 b = str(a)
 ```
 
----
-
 ## Why Typecasting is Required?
 - The below program which is a bit lengthy
 <img width="445" height="313" alt="image" src="https://github.com/user-attachments/assets/4cbb3b3d-3055-4034-bdeb-7499ae50a9e0" />
 
 - It will get simplified by using typecasting
 <img width="450" height="112" alt="image" src="https://github.com/user-attachments/assets/0df11fb8-c2ca-4a82-bf6a-c26012523aff" />
-
----
 
 ## User Input
 
@@ -103,16 +89,11 @@ b = str(a)
 
 <img width="446" height="191" alt="image" src="https://github.com/user-attachments/assets/f6482c73-c0b5-4e30-b92b-62f0871214f8" />
 
----
-
 ## Using New Lines & Tabs
 
 * `\n` → New line
 * `\t` → Tab space
-
-<img width="446" height="191" alt="image" src="https://github.com/user-attachments/assets/e264961c-f507-4326-a69b-e1bd188c8bcc" />
-
----
+<img width="450" height="152" alt="image" src="https://github.com/user-attachments/assets/63b00c11-8de9-44bc-927f-3af98b00f9f5" />
 
 ## Comments & Print Formatting
 
@@ -123,15 +104,11 @@ b = str(a)
 
 <img width="600" height="164" alt="image" src="https://github.com/user-attachments/assets/8b1d5cdc-8522-44ad-894e-7652a6c2c76e" />
 
----
-
 ## REPL in Python
 
 * REPL stands for **Read, Evaluate, Process, Loop**
 * Used to quickly test Python commands
 * Type `python` in the terminal and perform operations like `+`, `-`, `*`, `/`
-
----
 
 ## Operators in Python
 
@@ -153,8 +130,6 @@ Reference:
 * Only `False or False` results in `False`
 * `not` reverses the output
 
----
-
 ## Conditional Statements
 
 Reference:
@@ -165,8 +140,6 @@ Reference:
 * They are used to make decisions in code
 * Based on conditions like `if`, `elif`, and `else`
 * The program executes different blocks of code based on conditions
-
----
 
 ## Loops
 
@@ -181,8 +154,6 @@ Types:
 
 * `for` loop
 * `while` loop
-
----
 
 ## STRING
 
@@ -199,14 +170,10 @@ Reference:
 (-5   -4   -3   -2   -1)
 ```
 
----
-
 ## String Methods
 
 * Used to perform operations on strings
 * Examples: `upper()`, `lower()`, `capitalize()`, `title()`, `len()`
-
----
 
 ## FUNCTIONS
 
@@ -219,8 +186,6 @@ Reference:
 * You define a function once and call it whenever needed
 * Helps avoid repetition and makes code cleaner
 
----
-
 ## Modules
 
 Reference:
@@ -231,8 +196,6 @@ Reference:
 * Modules are Python files that contain reusable code
 * They help organize code into separate files
 * Examples: `math`, `os`, `sys`
-
----
 
 ## LISTS
 
