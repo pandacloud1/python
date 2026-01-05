@@ -95,7 +95,7 @@ b = str(a)
 * `\t` → Tab space
 <img width="450" height="152" alt="image" src="https://github.com/user-attachments/assets/63b00c11-8de9-44bc-927f-3af98b00f9f5" />
 
-## Comments & Print Formatting
+## Print Formatting
 
 * By default, **space** is used as a separator in `print()`
 * You can change the separator using `sep`
