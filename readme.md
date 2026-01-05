@@ -88,8 +88,10 @@ b = str(a)
 ---
 
 ## Why Typecasting is Required?
-
+- The below program which is a bit lengthy
 <img width="445" height="313" alt="image" src="https://github.com/user-attachments/assets/4cbb3b3d-3055-4034-bdeb-7499ae50a9e0" />
+
+- It will get simplified by using typecasting
 <img width="450" height="112" alt="image" src="https://github.com/user-attachments/assets/0df11fb8-c2ca-4a82-bf6a-c26012523aff" />
 
 ---
