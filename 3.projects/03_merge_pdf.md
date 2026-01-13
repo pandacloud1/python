@@ -1,4 +1,4 @@
-## Merge pdf files together
+## Merge PDF
 - Install pypdf2 from web [https://pypi.org/project/PyPDF2/]
 - Check documentation for pdf merge & run the code [https://pypdf2.readthedocs.io/en/3.x/user/merging-pdfs.html]
 
