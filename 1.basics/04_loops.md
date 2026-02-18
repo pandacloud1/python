@@ -1,5 +1,24 @@
 # LOOPS
 
+### FOR LOOP
+```txt
+for loop = Fixed biscuits in a box
+You have 10 biscuits → eat one by one until finished.
+You already know the count = 10
+
+for = count controlled
+```
+
+### WHILE LOOP
+```txt
+while loop = Eat until hungry
+You keep eating while you are hungry.
+You don’t know how many biscuits you’ll eat — depends on condition (hunger)
+
+while = condition controlled
+```
+
+
 ## FOR LOOP
 ### Print table of 5
 ```py
