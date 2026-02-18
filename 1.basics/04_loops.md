@@ -7,6 +7,7 @@ You have 10 biscuits → eat one by one until finished.
 You already know the count = 10
 
 for = count controlled
+use case: Lists, ranges, files
 ```
 
 ### WHILE LOOP
@@ -16,6 +17,7 @@ You keep eating while you are hungry.
 You don’t know how many biscuits you’ll eat — depends on condition (hunger)
 
 while = condition controlled
+use case: User input, waiting, conditions
 ```
 
 
