@@ -18,3 +18,4 @@ name = input("Enter the qrcode image name: ")
 img = qrcode.make(url)
 img.save(f"{name}.png")
 ```
+<img width="376" height="373" alt="image" src="https://github.com/user-attachments/assets/b7912852-c297-4a98-8581-a9f02586f0be" />
