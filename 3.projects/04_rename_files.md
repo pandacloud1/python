@@ -1,4 +1,4 @@
-### Code to rename pdf files
+### Code to rename only pdf files
 ```py
 import os
 
