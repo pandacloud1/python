@@ -2,8 +2,12 @@
 
 Ref: [https://pypi.org/project/qrcode/]
 #### Install qrcode module using below commands
-```pip install qrcode```
-```pip install qrcode[pil]```
+```txt
+pip install qrcode
+```
+```txt
+pip install qrcode[pil]
+```
 
 ```py
 import qrcode
