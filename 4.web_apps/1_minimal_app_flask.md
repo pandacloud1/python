@@ -30,3 +30,34 @@ app.run(debug=True)
 - Now create two folders `static` & `templates` and your python code must be in `main.py`
 - Go inside templates and add index.html file, just enter "!" and hit Enter, a template will be generated
 - You can add your content there.
+
+```py
+### main.py
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route("/")
+def hello_world():
+    return render_template("index.html")   # add index.html file name here
+
+app.run(debug=True)
+```
+
+```html
+### Create index.html file inside 'templates'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to the PandaCloud!</h1>
+    <h3>Let's learn Python in simple way!</h3>
+    
+</body>
+</html>
+```
+<img width="405" height="101" alt="image" src="https://github.com/user-attachments/assets/282e4e4a-bff7-4f3e-8474-638535c1f4bd" />
