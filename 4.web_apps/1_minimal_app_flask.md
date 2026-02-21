@@ -25,3 +25,8 @@ app.run(debug=True)
 #### Access local host
 - Open http://127.0.0.1:5000/ & you must be able to see 'Hello World'
 <img width="321" height="163.5" alt="image" src="https://github.com/user-attachments/assets/d93c3fa2-196d-493e-9e81-d43edb26c017" />
+
+### Adding index.html files
+- Now create two folders `static` & `templates` and your python code must be in `main.py`
+- Go inside templates and add index.html file, just enter "!" and hit Enter, a template will be generated
+- You can add your content there.
