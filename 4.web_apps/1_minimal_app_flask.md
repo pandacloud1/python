@@ -30,6 +30,7 @@ app.run(debug=True)
 - Now create two folders `static` & `templates` and your python code must be in `main.py`
 - Go inside templates and add index.html file, just enter "!" and hit Enter, a template will be generated
 - You can add your content there.
+<img width="120" height="80" alt="image" src="https://github.com/user-attachments/assets/ca4cf497-f440-4c0e-ad0d-efaf1da21906" />
 
 ```py
 ### main.py
