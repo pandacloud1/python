@@ -1,4 +1,4 @@
-### A Minimal Application using Flask
+### MINIMAL APPLICATION USING FLASK
 ---
 - Flask is a lightweight web framework for Python that simplifies the process of building web applications and APIs
 - It is used for building RESTful APIs and microservices.
