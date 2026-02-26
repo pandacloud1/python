@@ -27,7 +27,7 @@ app.run(debug=True)
 - Open http://127.0.0.1:5000/ & you must be able to see 'Hello World'
 <img width="321" height="163.5" alt="image" src="https://github.com/user-attachments/assets/d93c3fa2-196d-493e-9e81-d43edb26c017" />
 
-### Adding index.html files
+### ADD INDEX.HTML FILES IN WEBAPP
 ---
 - Now create two folders `static` & `templates` and your python code must be in `main.py`
 - If you want to allow users to download files, then put those files inside `static` folder
@@ -68,7 +68,7 @@ app.run(debug=True)   # default port is '5000', you can change it by entering po
 ```
 <img width="405" height="101" alt="image" src="https://github.com/user-attachments/assets/282e4e4a-bff7-4f3e-8474-638535c1f4bd" />
 
-### Downloading content from app
+### DOWNLOAD FILES FROM WEBAPP
 ---
 - Add an image named 'img.jpg' inside `static` folder
 
@@ -103,8 +103,48 @@ app.run(debug=True)
 ```
 <img width="268" height="119" alt="image" src="https://github.com/user-attachments/assets/744f64aa-8e90-4ebe-9ef8-11b8e586b528" />
 
-### Generating forms in app
+### GENERATING FORMS IN WEBAPP
 ---
 - GET request is used to simply get the data from website
 - POST request is used to get the data along with some content (eg. form)
 - Both GET & POST requests can be imported using 'requests'
+  
+```py
+### main.py
+from flask import Flask, render_template, request
+
+app = Flask(__name__)
+
+@app.route("/", methods=["GET", "POST"])
+def hello_world():
+    if (request.method == "POST"):
+      with open("file.txt", "a") as file:
+         file.write(f"The name is {request.form["name"]} & email is {request.form["email"]}\n")
+      return render_template("index.html")
+    else:
+      return render_template("index.html")
+app.run(debug=True)
+```
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to the PandaCloud!</h1>
+    <h3>Please fill up this form to register</h3>
+    <form action="/" method="post">
+        <input name="name", type="text" placeholder="Enter your name">
+        <input name="email", type="email" placeholder="Enter your email">
+        <input type="submit", value="Submit">
+    </form>
+    
+</body>
+</html>
+```
+<img width="281" height="99" alt="image" src="https://github.com/user-attachments/assets/7df2ec10-36f7-47e4-afd7-ef23b6d032dc" />
+<img width="329" height="58" alt="image" src="https://github.com/user-attachments/assets/bfdedf0a-d7c4-4019-b021-5fd4b77820bf" />
