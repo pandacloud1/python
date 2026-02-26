@@ -25,7 +25,9 @@ app.run(debug=True)
 
 #### Access local host
 - Open http://127.0.0.1:5000/ & you must be able to see 'Hello World'
-<img width="321" height="163.5" alt="image" style="border:2px solid black;" src="https://github.com/user-attachments/assets/d93c3fa2-196d-493e-9e81-d43edb26c017" />
+<img width="321" height="163.5" alt="image"
+     src="https://github.com/user-attachments/assets/d93c3fa2-196d-493e-9e81-d43edb26c017"
+     style="border:2px solid black;" />
 
 ### ADD INDEX.HTML FILES IN WEBAPP
 ---
