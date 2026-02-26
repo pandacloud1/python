@@ -65,3 +65,37 @@ app.run(debug=True)   # default port is '5000', you can change it by entering po
 </html>
 ```
 <img width="405" height="101" alt="image" src="https://github.com/user-attachments/assets/282e4e4a-bff7-4f3e-8474-638535c1f4bd" />
+
+### Downloading content from app
+- Add an image named 'img.jpg' inside `static` folder
+
+```py
+### main.py
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route("/")
+def hello_world():
+    return render_template("index.html")
+
+app.run(debug=True)
+```
+```html
+### /templates/index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to the PandaCloud!</h1>
+    <h3>Let's learn Python in simple way!</h3>
+    <p>Download image here: </p><a href="/static/img.jpg">Download</a>
+    
+</body>
+</html>
+```
+<img width="536" height="237" alt="image" src="https://github.com/user-attachments/assets/744f64aa-8e90-4ebe-9ef8-11b8e586b528" />
