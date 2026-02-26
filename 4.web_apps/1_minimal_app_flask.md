@@ -129,6 +129,7 @@ app.run(debug=True)
 ```
 
 ```html
+/templates/index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
