@@ -98,4 +98,4 @@ app.run(debug=True)
 </body>
 </html>
 ```
-<img width="536" height="237" alt="image" src="https://github.com/user-attachments/assets/744f64aa-8e90-4ebe-9ef8-11b8e586b528" />
+<img width="268" height="119" alt="image" src="https://github.com/user-attachments/assets/744f64aa-8e90-4ebe-9ef8-11b8e586b528" />
