@@ -99,3 +99,8 @@ app.run(debug=True)
 </html>
 ```
 <img width="268" height="119" alt="image" src="https://github.com/user-attachments/assets/744f64aa-8e90-4ebe-9ef8-11b8e586b528" />
+
+### Generating forms in app
+- GET request is used to simply get the data from website
+- POST request is used to get the data along with some content (eg. form)
+- Both GET & POST requests can be imported using 'requests'
