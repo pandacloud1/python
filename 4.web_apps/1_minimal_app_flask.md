@@ -109,7 +109,7 @@ app.run(debug=True)
 ### GENERATING FORMS IN WEBAPP
 - `GET` request is used to simply get the data from website
 - `POST` request is used to get the data along with some content (eg. form)
-- Both `GET` & `POST` requests can be imported using 'requests'
+- Both `GET` & `POST` requests can be imported using `request`
   
 ```py
 ### main.py
