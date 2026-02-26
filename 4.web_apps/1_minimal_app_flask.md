@@ -29,7 +29,7 @@ app.run(debug=True)
 ### Adding index.html files
 - Now create two folders `static` & `templates` and your python code must be in `main.py`
 - If you want to allow users to download files, then put those files inside `static` folder
-- User can simple type the url, the path & download the files
+- User can simple type the url, the path & download the files (eg. http://127.0.0.1:5000/static/hare.jpg)
 - Go inside templates and add index.html file, just enter "!" and hit Enter, a template will be generated
 - You can add your content there.
 <img width="120" height="80" alt="image" src="https://github.com/user-attachments/assets/ca4cf497-f440-4c0e-ad0d-efaf1da21906" />
