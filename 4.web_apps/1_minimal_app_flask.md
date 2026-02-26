@@ -44,7 +44,8 @@ app = Flask(__name__)
 def hello_world():
     return render_template("index.html")   # add index.html file name here
 
-app.run(debug=True)
+app.run(debug=True)   # default port is '5000', you can change it by entering port=x inside braces
+                      # eg.: app.run(debug=True, port=8080)
 ```
 
 ```html
