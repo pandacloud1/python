@@ -28,6 +28,7 @@ app.run(debug=True)
 <img width="321" height="163.5" alt="image" src="https://github.com/user-attachments/assets/d93c3fa2-196d-493e-9e81-d43edb26c017" />
 
 ### Adding index.html files
+---
 - Now create two folders `static` & `templates` and your python code must be in `main.py`
 - If you want to allow users to download files, then put those files inside `static` folder
 - User can simple type the url, the path & download the files (eg. http://127.0.0.1:5000/static/hare.jpg)
@@ -68,6 +69,7 @@ app.run(debug=True)   # default port is '5000', you can change it by entering po
 <img width="405" height="101" alt="image" src="https://github.com/user-attachments/assets/282e4e4a-bff7-4f3e-8474-638535c1f4bd" />
 
 ### Downloading content from app
+---
 - Add an image named 'img.jpg' inside `static` folder
 
 ```py
@@ -102,6 +104,7 @@ app.run(debug=True)
 <img width="268" height="119" alt="image" src="https://github.com/user-attachments/assets/744f64aa-8e90-4ebe-9ef8-11b8e586b528" />
 
 ### Generating forms in app
+---
 - GET request is used to simply get the data from website
 - POST request is used to get the data along with some content (eg. form)
 - Both GET & POST requests can be imported using 'requests'
