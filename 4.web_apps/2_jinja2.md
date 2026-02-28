@@ -51,8 +51,8 @@ app.run(debug=True)
 <img width="188" height="190" alt="image" src="https://github.com/user-attachments/assets/24195b9d-6c80-4b54-8fd8-c9e8795274b3" />
 
 ### WITH JINJA2
-- The above list of items can be added inside for loop using jinja2
-- Note: Change index.html Language Mode to 'jinja' from bottom right of VS code
+- The above list of items can be added inside `for loop` using jinja2
+- Note: Change index.html Language Mode to `jinja` from bottom right of VS code
 - Ref: [https://jinja.palletsprojects.com/en/stable/templates/]
 
 ```py
