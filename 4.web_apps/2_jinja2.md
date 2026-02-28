@@ -52,6 +52,7 @@ app.run(debug=True)
 
 ### WITH JINJA2
 - The above list of items can be added inside `for loop` using jinja2
+- You can keep on adding multiple items inside `main.py` file, the loop will implement the extra items
 - Note: Change Language Mode of `index.html` to `jinja` from bottom right of VS code
 - Ref: [https://jinja.palletsprojects.com/en/stable/templates/]
 
