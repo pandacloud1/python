@@ -53,7 +53,8 @@ app.run(debug=True)
 ### WITH JINJA2
 - The above list of items can be added inside `for loop` using jinja2
 - You can keep on adding multiple items inside `main.py` file, the loop will implement the extra items
-- Note: Change Language Mode of `index.html` to `jinja` from bottom right of VS code
+- Note: Change Language Mode of `index.html` to `jinja` from bottom right of VS code.
+- Note: Add jinja on VS code --> Settings --> Emmet --> Emmet: Include languages --> Items: `jinja-html`; Value: `jinja`
 - Tip: Install `Jinja snippet template` in VS code for easy use of Jinja templates
 - Ref: [https://jinja.palletsprojects.com/en/stable/templates/]
 
