@@ -49,3 +49,44 @@ app.run(debug=True)
 </html>
 ```
 <img width="188" height="190" alt="image" src="https://github.com/user-attachments/assets/24195b9d-6c80-4b54-8fd8-c9e8795274b3" />
+
+### WITH JINJA2
+- The above list of items can be added inside for loop using jinja2
+- Note: Change index.html Language Mode to 'jinja' from bottom right of VS code
+- Ref: [https://jinja.palletsprojects.com/en/stable/templates/]
+
+```py
+from flask import Flask, render_template, request
+app = Flask(__name__)
+
+@app.route("/", methods=["GET", "POST"])
+def hello_world():
+    age = {
+       "Alexa": 22,
+       "Benji": 35,
+       "Ethan": 53,
+       "Grace": 45,       
+       "Ilsa": 37,
+       "Luther": 21
+    }
+    return render_template("index.html", age=age)
+app.run(debug=True)
+```
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    The age is as below:<br>
+    {# using 'for loop' from jinja2 #}
+    {% for item in age %}
+        {{item}} is {{age.get(item)}} years old.<br>
+    {% endfor %}
+</body>
+</html>
+```
