@@ -52,7 +52,7 @@ app.run(debug=True)
 
 ### WITH JINJA2
 - The above list of items can be added inside `for loop` using jinja2
-- Note: Change index.html Language Mode to `jinja` from bottom right of VS code
+- Note: Change Language Mode of `index.html` to `jinja` from bottom right of VS code
 - Ref: [https://jinja.palletsprojects.com/en/stable/templates/]
 
 ```py
