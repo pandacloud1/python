@@ -1,5 +1,5 @@
 ### QUERY PARAMETERS
-- A query parameter in Python refers to a way of passing additional information to a web server as part of a URL.
+- A query parameter in Python refers to a way of passing additional information to a web server's URL.
 - Eg.1 `www.example.com/?name=query_parameter`
 - Eg.2 `https://amazon.com/search?item=laptop`
 - Without query parameters, the server wouldn’t know What you’re searching for or Which page number you want or Which filter you selected
