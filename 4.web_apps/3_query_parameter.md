@@ -12,6 +12,7 @@
   </form>
   ```
 
+#### main.py
 ```py
 from flask import Flask, render_template, request
 app = Flask(__name__)
@@ -28,6 +29,7 @@ def hello_world():
 app.run(debug=True)
 ```
 
+#### /template/index.html
 ```html
 <!DOCTYPE html>
 <html lang="en">
