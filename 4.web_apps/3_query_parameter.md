@@ -5,7 +5,7 @@
 - Without query parameters, the server wouldn’t know What you’re searching for or Which page number you want or Which filter you selected
 - In the below example, we are passing it manually, but in real-time it is passed as per the user's input from the browser form
 - When user types `laptop`, the browser automatically creates `https://amazon.com/search?product=laptop`
-```
+- ```
 <form action="/search" method="GET">
   <input type="text" name="product">
   <button type="submit">Search</button>
