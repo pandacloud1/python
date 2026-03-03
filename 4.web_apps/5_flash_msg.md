@@ -1,5 +1,5 @@
 ### FLASH MESSAGE
-- flash() is a way to send a temporary message from one request to the next request.
+- Flash is a way to send a temporary message in browser.
 - It is mainly used for: Login success message, Logout message, Error message, Form validation message
 - Flash stores message temporarily in a session, then automatically removes it after reading
 - Note: Flash requires a Secret Key, because flash stores data in session. Session is signed using secret key.So, No secret key → no flash.
